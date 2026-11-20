@@ -1,0 +1,69 @@
+# .portolan/metadata.yaml: catalog root. Collections inherit the fields below
+# unless their own metadata.yaml overrides them.
+
+title: "Global Drought Hazard"
+description: >-
+  A mirror of the [Global Drought Hazard](https://data.humdata.org/dataset/global-drought-hazard)
+  rasters that the Institute for International Law of Peace and Armed Conflict
+  (IFHV), Ruhr University Bochum, publishes on the Humanitarian Data Exchange.
+  The rasters give extreme value return levels of the 6-month Standardised
+  Precipitation Evapotranspiration Index (SPEI-6), 1902 to 2018, for five SPEI
+  thresholds and six return periods (25 to 1000 years). The catalog holds the
+  30 rasters as cloud-optimized GeoTIFFs. Read [AGENTS.md](AGENTS.md) before
+  you query.
+
+contact:
+  name: "Portolan Mirrors"
+  email: "nissim@radiant.earth"
+
+license: "CC-BY-4.0"
+license_url: "https://creativecommons.org/licenses/by/4.0/"
+
+providers:
+  - name: "Institute for International Law of Peace and Armed Conflict (IFHV), Ruhr University Bochum"
+    roles: ["producer", "licensor"]
+    url: "https://www.ifhv.de"
+    description: "Daniel Weller and Holger Mann (IFHV) modelled the rasters and published them on the Humanitarian Data Exchange under CC BY 4.0."
+  - name: "Portolan Mirrors"
+    roles: ["host"]
+    url: "https://source.coop/portolan-mirrors/global-drought-hazard"
+    description: "Maintains this Portolan mirror: the cloud-optimized GeoTIFFs, STAC metadata, thumbnails, and documentation."
+
+citation: >-
+  Weller, Daniel & Mann, Holger (2022): Global Drought Hazard. A global raster
+  data set of extreme value analyses of the Standardized Precipitation
+  Evapotranspiration Index via Poisson-Generalized Pareto Point Process
+  modelling. Distributed by The Humanitarian Data Exchange: Institute for
+  International Law of Peace and Armed Conflict.
+keywords:
+  - drought
+  - climate hazards
+  - hazards and risk
+  - SPEI
+  - extreme value analysis
+  - return period
+attribution: "Weller & Mann (2022), Global Drought Hazard, IFHV, Ruhr University Bochum, CC BY 4.0"
+
+source_url: "https://data.humdata.org/dataset/global-drought-hazard"
+processing_notes: >-
+  Downloaded the 30 GeoTIFFs of the HDX dataset `global-drought-hazard`
+  (last modified on HDX 2023-01-16) on 2026-11-20. Every file opened and read
+  without error. Each file is about 1.8 KB smaller than the size the HDX API
+  lists, and matches the size the HDX file store serves. Each file was
+  rewritten as a COG with GDAL (DEFLATE, floating-point predictor, 512 px
+  tiles, average overviews). Pixel values, the grid, and the nodata value
+  (-3.4e38) are unchanged. GDAL 3.8 computed a NaN mean for these Float32
+  files, so the embedded statistics were computed with numpy over the valid
+  pixels. The upstream files are strip-tiled (one row per block) with no
+  overviews, so they are not read efficiently over HTTP. The build scripts
+  are in [the repository](https://github.com/nlebovits/global-drought-hazard).
+known_issues: >-
+  The producer states that the data "should not be used for local or regional
+  applications" and that "some areas may be under- or overestimated". The
+  model output is at about 0.5°; the 0.0083° grid is a bilinear resampling
+  for publication, so it adds no detail. The producer describes a value as
+  "the number of months" with SPEI at or below the threshold for the return
+  period, but does not say whether the count is per drought event or how it
+  is aggregated; values range from 0 to 5.93. At SPEI -2.0 and below, cells
+  where the model has no estimate are nodata, so coverage falls from 26% of
+  the grid at SPEI -1.0 to 0.44% at SPEI -3.0.

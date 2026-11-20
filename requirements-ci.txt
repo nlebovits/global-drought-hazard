@@ -1,0 +1,4 @@
+# Python packages the gates import or run. The validators are installed as
+# separate uv tools in the workflows: portolan-cli 0.9.0 requires
+# rashid<0.4.0, and the catalog is validated with rashid 0.4.0.
+pyflakes

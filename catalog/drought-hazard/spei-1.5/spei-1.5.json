@@ -1,0 +1,430 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
+    "https://stac-extensions.github.io/raster/v2.0.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+    "https://stac-extensions.github.io/render/v2.0.0/schema.json"
+  ],
+  "id": "spei-1.5",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -180.0,
+          -89.9999928
+        ],
+        [
+          -180.0,
+          90.0
+        ],
+        [
+          179.9999856,
+          90.0
+        ],
+        [
+          179.9999856,
+          -89.9999928
+        ],
+        [
+          -180.0,
+          -89.9999928
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -180.0,
+    -89.9999928,
+    179.9999856,
+    90.0
+  ],
+  "properties": {
+    "raster:spatial_resolution": 0.008333333,
+    "title": "SPEI -1.5 or lower",
+    "start_datetime": "1902-01-01T00:00:00Z",
+    "end_datetime": "2018-12-31T23:59:59Z",
+    "proj:code": "EPSG:4326",
+    "proj:bbox": [
+      -180.0,
+      -89.9999928,
+      179.9999856,
+      90.0
+    ],
+    "proj:shape": [
+      21600,
+      43200
+    ],
+    "proj:transform": [
+      -180.0,
+      0.008333333,
+      0.0,
+      90.0,
+      0.0,
+      -0.008333333
+    ],
+    "datetime": null,
+    "description": "Return levels of months with SPEI-6 at or below -1.5, for return periods of 25 to 1000 years.",
+    "renders": {
+      "default": {
+        "title": "SPEI -1.5, 100-year return period",
+        "assets": [
+          "rp-100"
+        ],
+        "nodata": -3.4e+38,
+        "colormap_name": "ylorrd",
+        "rescale": [
+          [
+            0,
+            6
+          ]
+        ]
+      },
+      "rp-25": {
+        "title": "SPEI -1.5, 25-year return period",
+        "assets": [
+          "rp-25"
+        ],
+        "nodata": -3.4e+38,
+        "colormap_name": "ylorrd",
+        "rescale": [
+          [
+            0,
+            6
+          ]
+        ]
+      },
+      "rp-50": {
+        "title": "SPEI -1.5, 50-year return period",
+        "assets": [
+          "rp-50"
+        ],
+        "nodata": -3.4e+38,
+        "colormap_name": "ylorrd",
+        "rescale": [
+          [
+            0,
+            6
+          ]
+        ]
+      },
+      "rp-100": {
+        "title": "SPEI -1.5, 100-year return period",
+        "assets": [
+          "rp-100"
+        ],
+        "nodata": -3.4e+38,
+        "colormap_name": "ylorrd",
+        "rescale": [
+          [
+            0,
+            6
+          ]
+        ]
+      },
+      "rp-250": {
+        "title": "SPEI -1.5, 250-year return period",
+        "assets": [
+          "rp-250"
+        ],
+        "nodata": -3.4e+38,
+        "colormap_name": "ylorrd",
+        "rescale": [
+          [
+            0,
+            6
+          ]
+        ]
+      },
+      "rp-500": {
+        "title": "SPEI -1.5, 500-year return period",
+        "assets": [
+          "rp-500"
+        ],
+        "nodata": -3.4e+38,
+        "colormap_name": "ylorrd",
+        "rescale": [
+          [
+            0,
+            6
+          ]
+        ]
+      },
+      "rp-1000": {
+        "title": "SPEI -1.5, 1000-year return period",
+        "assets": [
+          "rp-1000"
+        ],
+        "nodata": -3.4e+38,
+        "colormap_name": "ylorrd",
+        "rescale": [
+          [
+            0,
+            6
+          ]
+        ]
+      }
+    }
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "rp-25": {
+      "href": "./global-drought-spei-1.5-return-period-25-years.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "25-year return period",
+      "description": "Months with SPEI-6 at or below -1.5 for a 25-year return period. Float32, nodata -3.4e38.",
+      "roles": [
+        "data"
+      ],
+      "file:size": 210548141,
+      "file:checksum": "122079a3fb74dc9a7b16f0e389de64d8bdbd85181a1345c6b6ca04cb4a81eeb4af33",
+      "bands": [
+        {
+          "name": "return_level",
+          "description": "Months with SPEI-6 at or below -1.5 for a 25-year return period.",
+          "data_type": "float32",
+          "nodata": -3.4e+38,
+          "unit": "months",
+          "statistics": {
+            "minimum": 1.1567844921955839e-06,
+            "maximum": 3.224684238433838,
+            "mean": 2.006228601807286,
+            "stddev": 0.2504522206983567,
+            "valid_percent": 25.9875
+          }
+        }
+      ]
+    },
+    "rp-50": {
+      "href": "./global-drought-spei-1.5-return-period-50-years.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "50-year return period",
+      "description": "Months with SPEI-6 at or below -1.5 for a 50-year return period. Float32, nodata -3.4e38.",
+      "roles": [
+        "data"
+      ],
+      "file:size": 207198891,
+      "file:checksum": "1220318b0c57e5178c8ec461d69bbffbc541c8711d1d3ab335ed5220af87b2912776",
+      "bands": [
+        {
+          "name": "return_level",
+          "description": "Months with SPEI-6 at or below -1.5 for a 50-year return period.",
+          "data_type": "float32",
+          "nodata": -3.4e+38,
+          "unit": "months",
+          "statistics": {
+            "minimum": 7.179403382906457e-06,
+            "maximum": 3.7194974422454834,
+            "mean": 2.27320257227955,
+            "stddev": 0.30903653399462594,
+            "valid_percent": 25.9896
+          }
+        }
+      ]
+    },
+    "rp-100": {
+      "href": "./global-drought-spei-1.5-return-period-100-years.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "100-year return period",
+      "description": "Months with SPEI-6 at or below -1.5 for a 100-year return period. Float32, nodata -3.4e38.",
+      "roles": [
+        "data"
+      ],
+      "file:size": 199733167,
+      "file:checksum": "122053e28181ca9f3f06c4d986765b6893f1caa185b7699f1325e496c09d1b59babb",
+      "bands": [
+        {
+          "name": "return_level",
+          "description": "Months with SPEI-6 at or below -1.5 for a 100-year return period.",
+          "data_type": "float32",
+          "nodata": -3.4e+38,
+          "unit": "months",
+          "statistics": {
+            "minimum": 0.3055301308631897,
+            "maximum": 4.37667989730835,
+            "mean": 2.4359137732993945,
+            "stddev": 0.37425649697020624,
+            "valid_percent": 25.9902
+          }
+        }
+      ]
+    },
+    "rp-250": {
+      "href": "./global-drought-spei-1.5-return-period-250-years.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "250-year return period",
+      "description": "Months with SPEI-6 at or below -1.5 for a 250-year return period. Float32, nodata -3.4e38.",
+      "roles": [
+        "data"
+      ],
+      "file:size": 189310729,
+      "file:checksum": "1220f376f4bf75b715f36d1ad573329c6d5652babf5ed082f78ffc2a0f1eba5962aa",
+      "bands": [
+        {
+          "name": "return_level",
+          "description": "Months with SPEI-6 at or below -1.5 for a 250-year return period.",
+          "data_type": "float32",
+          "nodata": -3.4e+38,
+          "unit": "months",
+          "statistics": {
+            "minimum": 1.3278034925460815,
+            "maximum": 5.089091777801514,
+            "mean": 2.564092934936339,
+            "stddev": 0.4443464714847873,
+            "valid_percent": 25.9902
+          }
+        }
+      ]
+    },
+    "rp-500": {
+      "href": "./global-drought-spei-1.5-return-period-500-years.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "500-year return period",
+      "description": "Months with SPEI-6 at or below -1.5 for a 500-year return period. Float32, nodata -3.4e38.",
+      "roles": [
+        "data"
+      ],
+      "file:size": 183554656,
+      "file:checksum": "1220e7cf5e5ad2afa71c23b3fc9c964e25dbdc226a061063f321a31a0cce8deae27b",
+      "bands": [
+        {
+          "name": "return_level",
+          "description": "Months with SPEI-6 at or below -1.5 for a 500-year return period.",
+          "data_type": "float32",
+          "nodata": -3.4e+38,
+          "unit": "months",
+          "statistics": {
+            "minimum": 1.6655709743499756,
+            "maximum": 5.531530857086182,
+            "mean": 2.6233659327946093,
+            "stddev": 0.48407752798082476,
+            "valid_percent": 25.9902
+          }
+        }
+      ]
+    },
+    "rp-1000": {
+      "href": "./global-drought-spei-1.5-return-period-1000-years.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "1000-year return period",
+      "description": "Months with SPEI-6 at or below -1.5 for a 1000-year return period. Float32, nodata -3.4e38.",
+      "roles": [
+        "data"
+      ],
+      "file:size": 179605821,
+      "file:checksum": "122064149dd929f0c5515179969a7e3a0b35a74861729736e4721902860f06b4914e",
+      "bands": [
+        {
+          "name": "return_level",
+          "description": "Months with SPEI-6 at or below -1.5 for a 1000-year return period.",
+          "data_type": "float32",
+          "nodata": -3.4e+38,
+          "unit": "months",
+          "statistics": {
+            "minimum": 1.8335319757461548,
+            "maximum": 5.90558385848999,
+            "mean": 2.6632991148692913,
+            "stddev": 0.5144076246100416,
+            "valid_percent": 25.9902
+          }
+        }
+      ]
+    },
+    "source-rp-25": {
+      "href": "https://data.humdata.org/dataset/30b85665-4c3d-4dc3-b543-3a567a3dea37/resource/59b97435-f016-42b4-9546-57ce03d2ddcc/download/global-drought-spei-1.5-return-period-25-years.tif",
+      "type": "image/tiff; application=geotiff",
+      "title": "HDX original: Global Drought SPEI 1.5+ Return Period 25 Years.tif",
+      "description": "The upstream GeoTIFF on the Humanitarian Data Exchange (strip-tiled, LZW, no overviews).",
+      "roles": [
+        "source"
+      ],
+      "file:size": 1055145005,
+      "file:checksum": "12204d7256819295557ae7faf5a2065597201eb2d60fb6c34a04632f447564be43f2"
+    },
+    "source-rp-50": {
+      "href": "https://data.humdata.org/dataset/30b85665-4c3d-4dc3-b543-3a567a3dea37/resource/c5d8e7b5-de7e-435e-a2fb-9f9a36902b74/download/global-drought-spei-1.5-return-period-50-years.tif",
+      "type": "image/tiff; application=geotiff",
+      "title": "HDX original: Global Drought SPEI 1.5+ Return Period 50 Years.tif",
+      "description": "The upstream GeoTIFF on the Humanitarian Data Exchange (strip-tiled, LZW, no overviews).",
+      "roles": [
+        "source"
+      ],
+      "file:size": 1050732757,
+      "file:checksum": "12208394daff374702384e739a68c4c557c8e92c2fb8a0cfd4084fed833f2da095f3"
+    },
+    "source-rp-100": {
+      "href": "https://data.humdata.org/dataset/30b85665-4c3d-4dc3-b543-3a567a3dea37/resource/6744572e-d5d1-4033-9d64-c87dc565586a/download/global-drought-spei-1.5-return-period-100-years.tif",
+      "type": "image/tiff; application=geotiff",
+      "title": "HDX original: Global Drought SPEI 1.5+ Return Period 100 Years.tif",
+      "description": "The upstream GeoTIFF on the Humanitarian Data Exchange (strip-tiled, LZW, no overviews).",
+      "roles": [
+        "source"
+      ],
+      "file:size": 1046015803,
+      "file:checksum": "1220030244a6eabcb825288a3a16cf5ec19e61e693b3bc96443c28bbeeb94fae015c"
+    },
+    "source-rp-250": {
+      "href": "https://data.humdata.org/dataset/30b85665-4c3d-4dc3-b543-3a567a3dea37/resource/add1394c-618d-41d9-a168-b1a8243d3dbc/download/global-drought-spei-1.5-return-period-250-years.tif",
+      "type": "image/tiff; application=geotiff",
+      "title": "HDX original: Global Drought SPEI 1.5+ Return Period 250 Years.tif",
+      "description": "The upstream GeoTIFF on the Humanitarian Data Exchange (strip-tiled, LZW, no overviews).",
+      "roles": [
+        "source"
+      ],
+      "file:size": 1035084015,
+      "file:checksum": "12206ed6706d250e6c282c839f3ed9de1e1f8a4e4a109b3f09c54bc3e79d9f50f1df"
+    },
+    "source-rp-500": {
+      "href": "https://data.humdata.org/dataset/30b85665-4c3d-4dc3-b543-3a567a3dea37/resource/eb934a71-ab3c-4e03-9b78-acf35abaa592/download/global-drought-spei-1.5-return-period-500-years.tif",
+      "type": "image/tiff; application=geotiff",
+      "title": "HDX original: Global Drought SPEI 1.5+ Return Period 500 Years.tif",
+      "description": "The upstream GeoTIFF on the Humanitarian Data Exchange (strip-tiled, LZW, no overviews).",
+      "roles": [
+        "source"
+      ],
+      "file:size": 1024046885,
+      "file:checksum": "12205ba79ef72742990ec39bd3783b9e68418e698abbed4178e79f6c4cdd0e4c25d6"
+    },
+    "source-rp-1000": {
+      "href": "https://data.humdata.org/dataset/30b85665-4c3d-4dc3-b543-3a567a3dea37/resource/b8814be7-b176-4140-85aa-30fde540b9b6/download/global-drought-spei-1.5-return-period-1000-years.tif",
+      "type": "image/tiff; application=geotiff",
+      "title": "HDX original: Global Drought SPEI 1.5+ Return Period 1000 Years.tif",
+      "description": "The upstream GeoTIFF on the Humanitarian Data Exchange (strip-tiled, LZW, no overviews).",
+      "roles": [
+        "source"
+      ],
+      "file:size": 1008082201,
+      "file:checksum": "12209c509c85075cc05c95870b74ae86f2864ca4e3302eec51e94f374bcf2adbbd08"
+    },
+    "thumbnail": {
+      "href": "./thumbnail.png",
+      "type": "image/png",
+      "title": "Thumbnail",
+      "description": "The 100-year return level at SPEI -1.5, rendered by tools/make_thumbs.py.",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 316115,
+      "file:checksum": "1220eba0e7bd5f719191edb552ab7985b900430c860b25931e6cea7ba3fcc4210838"
+    }
+  },
+  "collection": "drought-hazard"
+}

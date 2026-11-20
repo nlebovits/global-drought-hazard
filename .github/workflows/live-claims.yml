@@ -1,0 +1,62 @@
+# Run every query in the agent guides against the published objects each
+# week, and probe range requests and CORS on the published host.
+name: Live claims
+
+on:
+  schedule:
+    - cron: "23 6 * * 1"
+  workflow_dispatch:
+  pull_request:
+    paths:
+      - "catalog/**/AGENTS.md"
+      - "tests/test_agent_claims.py"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: live-claims-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  live:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - uses: astral-sh/setup-uv@v6
+
+      # Separate tools: portolan-cli 0.9.0 requires rashid<0.4.0.
+      - name: Install the validators
+        run: |
+          python -m pip install -r requirements-ci.txt
+          uv tool install rashid==0.4.0
+          uv tool install portolan-cli==0.9.0
+
+      - name: Install GDAL and the DuckDB CLI
+        env:
+          DUCKDB_VERSION: v2.0.0
+        run: |
+          sudo apt-get update -q
+          sudo apt-get install -yq gdal-bin
+          curl -fsSL -o /tmp/duckdb.tar.gz \
+            "https://github.com/duckdb/duckdb/releases/download/${DUCKDB_VERSION}/duckdb-cli-linux-amd64.tar.gz"
+          sudo tar -xzf /tmp/duckdb.tar.gz -C /usr/local/bin duckdb
+          duckdb --version
+
+      - name: Agent guide claims against the published objects
+        run: python3 tests/test_agent_claims.py
+
+      # --no-data: the data pass reports PTL-DAT-011 on every COG, a false
+      # positive in rashid 0.4.0 (portolan-sdi/rashid#327).
+      - name: rashid probes the published hosting
+        run: >-
+          rashid check catalog --no-data --live
+          --live-base-url https://data.source.coop/portolan-mirrors/global-drought-hazard/

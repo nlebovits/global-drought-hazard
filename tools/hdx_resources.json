@@ -1,0 +1,242 @@
+[
+  {
+    "file": "global-drought-spei-3.0-return-period-1000-years.tif",
+    "name": "Global Drought SPEI 3.0+ Return Period 1000 Years.tif",
+    "url": "https://data.humdata.org/dataset/30b85665-4c3d-4dc3-b543-3a567a3dea37/resource/772e5350-4d9e-46e9-a5c6-6aafc955ab5b/download/global-drought-spei-3.0-return-period-1000-years.tif",
+    "hdx_size": 47138220,
+    "served_size": 47136415,
+    "sha256": "d8fa552d9c61b0540bfe0beded8c5ffbf55c96dbcbe951fbd9ef64188c8e13d2"
+  },
+  {
+    "file": "global-drought-spei-3.0-return-period-500-years.tif",
+    "name": "Global Drought SPEI 3.0+ Return Period 500 Years.tif",
+    "url": "https://data.humdata.org/dataset/30b85665-4c3d-4dc3-b543-3a567a3dea37/resource/b0b6422b-82e6-4bd3-8aea-e028611b87f7/download/global-drought-spei-3.0-return-period-500-years.tif",
+    "hdx_size": 47169949,
+    "served_size": 47168133,
+    "sha256": "32b81d3b705778362d7e4a66bf56c063dc3fecc6a81bffda0368efbadf8b1822"
+  },
+  {
+    "file": "global-drought-spei-3.0-return-period-250-years.tif",
+    "name": "Global Drought SPEI 3.0+ Return Period 250 Years.tif",
+    "url": "https://data.humdata.org/dataset/30b85665-4c3d-4dc3-b543-3a567a3dea37/resource/4487541d-84ef-4763-97a0-92a3c730514d/download/global-drought-spei-3.0-return-period-250-years.tif",
+    "hdx_size": 47562380,
+    "served_size": 47560550,
+    "sha256": "0a4b07bc256270bd31f3aced71154234314f7e277f634171ccacc31628a77805"
+  },
+  {
+    "file": "global-drought-spei-3.0-return-period-100-years.tif",
+    "name": "Global Drought SPEI 3.0+ Return Period 100 Years.tif",
+    "url": "https://data.humdata.org/dataset/30b85665-4c3d-4dc3-b543-3a567a3dea37/resource/e58ff655-72cb-4565-92af-4ceb3730c657/download/global-drought-spei-3.0-return-period-100-years.tif",
+    "hdx_size": 47953542,
+    "served_size": 47951726,
+    "sha256": "305f7e573bb3a3f6cab82c061432e27aef768359893c0a7d93646d24adc5fba7"
+  },
+  {
+    "file": "global-drought-spei-3.0-return-period-50-years.tif",
+    "name": "Global Drought SPEI 3.0+ Return Period 50 Years.tif",
+    "url": "https://data.humdata.org/dataset/30b85665-4c3d-4dc3-b543-3a567a3dea37/resource/97161fb1-3161-47d6-b4b6-fccf79461ba6/download/global-drought-spei-3.0-return-period-50-years.tif",
+    "hdx_size": 45484038,
+    "served_size": 45482211,
+    "sha256": "588b868c97dda33b01853a65f09e8c00d24b0474300fb4f93d43e6a045ed56e0"
+  },
+  {
+    "file": "global-drought-spei-3.0-return-period-25-years.tif",
+    "name": "Global Drought SPEI 3.0+ Return Period 25 Years.tif",
+    "url": "https://data.humdata.org/dataset/30b85665-4c3d-4dc3-b543-3a567a3dea37/resource/10b998e2-be41-483e-a662-52706937923c/download/global-drought-spei-3.0-return-period-25-years.tif",
+    "hdx_size": 39518465,
+    "served_size": 39516638,
+    "sha256": "272c7c96415d082337ed01bc6b5dfba48213a8c0a8e1fb8b9324d46c2ca81e64"
+  },
+  {
+    "file": "global-drought-spei-2.5-return-period-1000-years.tif",
+    "name": "Global Drought SPEI 2.5+ Return Period 1000 Years.tif",
+    "url": "https://data.humdata.org/dataset/30b85665-4c3d-4dc3-b543-3a567a3dea37/resource/b8655e91-ed6f-4304-8c48-ef3a54c77e05/download/global-drought-spei-2.5-return-period-1000-years.tif",
+    "hdx_size": 162004422,
+    "served_size": 162002589,
+    "sha256": "5caeca5edfbe117cd14b93c43fa6027deb0f24436eeb9f8613b4e2a9a1b46236"
+  },
+  {
+    "file": "global-drought-spei-2.5-return-period-500-years.tif",
+    "name": "Global Drought SPEI 2.5+ Return Period 500 Years.tif",
+    "url": "https://data.humdata.org/dataset/30b85665-4c3d-4dc3-b543-3a567a3dea37/resource/956544da-03ae-451a-a85a-7b976be0dd14/download/global-drought-spei-2.5-return-period-500-years.tif",
+    "hdx_size": 162515238,
+    "served_size": 162513408,
+    "sha256": "7ba7f347c13487f57cb4ae6e0f2d76807d4f93314babb2136cc92612b52b84ef"
+  },
+  {
+    "file": "global-drought-spei-2.5-return-period-250-years.tif",
+    "name": "Global Drought SPEI 2.5+ Return Period 250 Years.tif",
+    "url": "https://data.humdata.org/dataset/30b85665-4c3d-4dc3-b543-3a567a3dea37/resource/32e15d48-b03b-47b3-8fd2-6a110a9e0523/download/global-drought-spei-2.5-return-period-250-years.tif",
+    "hdx_size": 167291893,
+    "served_size": 167290063,
+    "sha256": "0d96c0874f9ad3d85e8754b25fcdb6f17d3027fcfd2684b3f1f89a05cf1f0c41"
+  },
+  {
+    "file": "global-drought-spei-2.5-return-period-100-years.tif",
+    "name": "Global Drought SPEI 2.5+ Return Period 100 Years.tif",
+    "url": "https://data.humdata.org/dataset/30b85665-4c3d-4dc3-b543-3a567a3dea37/resource/2f4890c7-593a-4790-b7fb-ad8626718b43/download/global-drought-spei-2.5-return-period-100-years.tif",
+    "hdx_size": 171279434,
+    "served_size": 171277618,
+    "sha256": "37b250033e59207090eb81385f352a4bd913fbf1352894650294d2e37acfe56b"
+  },
+  {
+    "file": "global-drought-spei-2.5-return-period-50-years.tif",
+    "name": "Global Drought SPEI 2.5+ Return Period 50 Years.tif",
+    "url": "https://data.humdata.org/dataset/30b85665-4c3d-4dc3-b543-3a567a3dea37/resource/60e43ac3-31ba-4b89-91c3-6c293f4e7c49/download/global-drought-spei-2.5-return-period-50-years.tif",
+    "hdx_size": 151904134,
+    "served_size": 151902334,
+    "sha256": "74042f45e8e34f53812f14d9a5f79e8c68bf48234a125e36bcabaf51f2a41ca2"
+  },
+  {
+    "file": "global-drought-spei-2.5-return-period-25-years.tif",
+    "name": "Global Drought SPEI 2.5+ Return Period 25 Years.tif",
+    "url": "https://data.humdata.org/dataset/30b85665-4c3d-4dc3-b543-3a567a3dea37/resource/8e786a75-1c73-46df-8e62-4fdf6d52c633/download/global-drought-spei-2.5-return-period-25-years.tif",
+    "hdx_size": 99899335,
+    "served_size": 99897521,
+    "sha256": "e02a7a26ddba00c91205f18ecec14764b8332ef1f646eeed423be7a31030778d"
+  },
+  {
+    "file": "global-drought-spei-2.0-return-period-1000-years.tif",
+    "name": "Global Drought SPEI 2.0+ Return Period 1000 Years.tif",
+    "url": "https://data.humdata.org/dataset/30b85665-4c3d-4dc3-b543-3a567a3dea37/resource/8b617ce9-3ef2-44cd-a1f7-fd7397ec720d/download/global-drought-spei-2.0-return-period-1000-years.tif",
+    "hdx_size": 795483336,
+    "served_size": 795481502,
+    "sha256": "0d3836d5d79309847375bc22219cc25d73af466f3c9b0b917ec9b23668207c06"
+  },
+  {
+    "file": "global-drought-spei-2.0-return-period-500-years.tif",
+    "name": "Global Drought SPEI 2.0+ Return Period 500 Years.tif",
+    "url": "https://data.humdata.org/dataset/30b85665-4c3d-4dc3-b543-3a567a3dea37/resource/430b28bb-b255-453f-9426-60eb1ed1a087/download/global-drought-spei-2.0-return-period-500-years.tif",
+    "hdx_size": 823489982,
+    "served_size": 823488165,
+    "sha256": "c240105290ab7d4c4362c07e82950bdaee9899acdfe60ba5660621e12263c67b"
+  },
+  {
+    "file": "global-drought-spei-2.0-return-period-250-years.tif",
+    "name": "Global Drought SPEI 2.0+ Return Period 250 Years.tif",
+    "url": "https://data.humdata.org/dataset/30b85665-4c3d-4dc3-b543-3a567a3dea37/resource/74fceaa8-e950-47ca-8bca-f1d8ef24fbdd/download/global-drought-spei-2.0-return-period-250-years.tif",
+    "hdx_size": 854600877,
+    "served_size": 854599074,
+    "sha256": "14d886e9b1cc89fd5be1ab7f6263317b74cc2745b167735507e7c5229bfefa1b"
+  },
+  {
+    "file": "global-drought-spei-2.0-return-period-100-years.tif",
+    "name": "Global Drought SPEI 2.0+ Return Period 100 Years.tif",
+    "url": "https://data.humdata.org/dataset/30b85665-4c3d-4dc3-b543-3a567a3dea37/resource/e21f4f89-d2f6-484e-95d9-847679b44a61/download/global-drought-spei-2.0-return-period-100-years.tif",
+    "hdx_size": 878863133,
+    "served_size": 878861316,
+    "sha256": "9e4b8726734f32e39cefe1614c7cb0372122f9b383293c0666910764eb60437f"
+  },
+  {
+    "file": "global-drought-spei-2.0-return-period-50-years.tif",
+    "name": "Global Drought SPEI 2.0+ Return Period 50 Years.tif",
+    "url": "https://data.humdata.org/dataset/30b85665-4c3d-4dc3-b543-3a567a3dea37/resource/08061f08-fed5-41f5-8234-7b9d94a7346b/download/global-drought-spei-2.0-return-period-50-years.tif",
+    "hdx_size": 885265642,
+    "served_size": 885263814,
+    "sha256": "31286d0e652714e38dd92c59ff4a2b45e8f761172a7fb39af9ca618ceb9006b0"
+  },
+  {
+    "file": "global-drought-spei-2.0-return-period-25-years.tif",
+    "name": "Global Drought SPEI 2.0+ Return Period 25 Years.tif",
+    "url": "https://data.humdata.org/dataset/30b85665-4c3d-4dc3-b543-3a567a3dea37/resource/3d067bc4-e6bd-413e-a490-2010aa842a63/download/global-drought-spei-2.0-return-period-25-years.tif",
+    "hdx_size": 847549593,
+    "served_size": 847547779,
+    "sha256": "f2e984e1e6f25bee65a010d1f456fc8dcb5f06c5524faae6cdb60d02e90b2b4e"
+  },
+  {
+    "file": "global-drought-spei-1.5-return-period-1000-years.tif",
+    "name": "Global Drought SPEI 1.5+ Return Period 1000 Years.tif",
+    "url": "https://data.humdata.org/dataset/30b85665-4c3d-4dc3-b543-3a567a3dea37/resource/b8814be7-b176-4140-85aa-30fde540b9b6/download/global-drought-spei-1.5-return-period-1000-years.tif",
+    "hdx_size": 1008084035,
+    "served_size": 1008082201,
+    "sha256": "9c509c85075cc05c95870b74ae86f2864ca4e3302eec51e94f374bcf2adbbd08"
+  },
+  {
+    "file": "global-drought-spei-1.5-return-period-500-years.tif",
+    "name": "Global Drought SPEI 1.5+ Return Period 500 Years.tif",
+    "url": "https://data.humdata.org/dataset/30b85665-4c3d-4dc3-b543-3a567a3dea37/resource/eb934a71-ab3c-4e03-9b78-acf35abaa592/download/global-drought-spei-1.5-return-period-500-years.tif",
+    "hdx_size": 1024048702,
+    "served_size": 1024046885,
+    "sha256": "5ba79ef72742990ec39bd3783b9e68418e698abbed4178e79f6c4cdd0e4c25d6"
+  },
+  {
+    "file": "global-drought-spei-1.5-return-period-250-years.tif",
+    "name": "Global Drought SPEI 1.5+ Return Period 250 Years.tif",
+    "url": "https://data.humdata.org/dataset/30b85665-4c3d-4dc3-b543-3a567a3dea37/resource/add1394c-618d-41d9-a168-b1a8243d3dbc/download/global-drought-spei-1.5-return-period-250-years.tif",
+    "hdx_size": 1035085846,
+    "served_size": 1035084015,
+    "sha256": "6ed6706d250e6c282c839f3ed9de1e1f8a4e4a109b3f09c54bc3e79d9f50f1df"
+  },
+  {
+    "file": "global-drought-spei-1.5-return-period-100-years.tif",
+    "name": "Global Drought SPEI 1.5+ Return Period 100 Years.tif",
+    "url": "https://data.humdata.org/dataset/30b85665-4c3d-4dc3-b543-3a567a3dea37/resource/6744572e-d5d1-4033-9d64-c87dc565586a/download/global-drought-spei-1.5-return-period-100-years.tif",
+    "hdx_size": 1046017634,
+    "served_size": 1046015803,
+    "sha256": "030244a6eabcb825288a3a16cf5ec19e61e693b3bc96443c28bbeeb94fae015c"
+  },
+  {
+    "file": "global-drought-spei-1.5-return-period-50-years.tif",
+    "name": "Global Drought SPEI 1.5+ Return Period 50 Years.tif",
+    "url": "https://data.humdata.org/dataset/30b85665-4c3d-4dc3-b543-3a567a3dea37/resource/c5d8e7b5-de7e-435e-a2fb-9f9a36902b74/download/global-drought-spei-1.5-return-period-50-years.tif",
+    "hdx_size": 1050734557,
+    "served_size": 1050732757,
+    "sha256": "8394daff374702384e739a68c4c557c8e92c2fb8a0cfd4084fed833f2da095f3"
+  },
+  {
+    "file": "global-drought-spei-1.5-return-period-25-years.tif",
+    "name": "Global Drought SPEI 1.5+ Return Period 25 Years.tif",
+    "url": "https://data.humdata.org/dataset/30b85665-4c3d-4dc3-b543-3a567a3dea37/resource/59b97435-f016-42b4-9546-57ce03d2ddcc/download/global-drought-spei-1.5-return-period-25-years.tif",
+    "hdx_size": 1055146791,
+    "served_size": 1055145005,
+    "sha256": "4d7256819295557ae7faf5a2065597201eb2d60fb6c34a04632f447564be43f2"
+  },
+  {
+    "file": "global-drought-spei-1.0-return-period-1000-years.tif",
+    "name": "Global Drought SPEI 1.0+ Return Period 1000 Years.tif",
+    "url": "https://data.humdata.org/dataset/30b85665-4c3d-4dc3-b543-3a567a3dea37/resource/1e3134d0-0b90-48d1-829a-f046cf8b6442/download/global-drought-spei-1.0-return-period-1000-years.tif",
+    "hdx_size": 1023956640,
+    "served_size": 1023954834,
+    "sha256": "0bfb4dca0ac5de9383134c31622233bc53fccff2e1e8a3884cd93dc71ea4738e"
+  },
+  {
+    "file": "global-drought-spei-1.0-return-period-500-years.tif",
+    "name": "Global Drought SPEI 1.0+ Return Period 500 Years.tif",
+    "url": "https://data.humdata.org/dataset/30b85665-4c3d-4dc3-b543-3a567a3dea37/resource/0a6bd7da-5a45-437d-b311-29a60c0c675a/download/global-drought-spei-1.0-return-period-500-years.tif",
+    "hdx_size": 1023704007,
+    "served_size": 1023702176,
+    "sha256": "7f004728d20da16e4878f9c2e10f838ee3748f16ec11e5c80d8d763ecaa19856"
+  },
+  {
+    "file": "global-drought-spei-1.0-return-period-250-years.tif",
+    "name": "Global Drought SPEI 1.0+ Return Period 250 Years.tif",
+    "url": "https://data.humdata.org/dataset/30b85665-4c3d-4dc3-b543-3a567a3dea37/resource/ee36b652-6d1f-47bc-afa6-37974c4c1a12/download/global-drought-spei-1.0-return-period-250-years.tif",
+    "hdx_size": 1026193686,
+    "served_size": 1026191855,
+    "sha256": "57b93377135d62d6679a6454e9ec338f60c194af1f2e9da25c3920e92253f198"
+  },
+  {
+    "file": "global-drought-spei-1.0-return-period-100-years.tif",
+    "name": "Global Drought SPEI 1.0+ Return Period 100 Years.tif",
+    "url": "https://data.humdata.org/dataset/30b85665-4c3d-4dc3-b543-3a567a3dea37/resource/0d5619c0-dbd4-4cd8-87e7-6a7082b8cac4/download/global-drought-spei-1.0-return-period-100-years.tif",
+    "hdx_size": 1037081378,
+    "served_size": 1037079561,
+    "sha256": "0b1c4b4785b7864c053899ecd68166687cb86539a0b4359e2a01d542c083b4ba"
+  },
+  {
+    "file": "global-drought-spei-1.0-return-period-50-years.tif",
+    "name": "Global Drought SPEI 1.0+ Return Period 50 Years.tif",
+    "url": "https://data.humdata.org/dataset/30b85665-4c3d-4dc3-b543-3a567a3dea37/resource/19a8be65-f87b-4567-8c29-ede5d4f2a24d/download/global-drought-spei-1.0-return-period-50-years.tif",
+    "hdx_size": 1040326784,
+    "served_size": 1040324970,
+    "sha256": "92289431ec67a1283faa0249db292dfe77029420150fde377a66aa29b84210ad"
+  },
+  {
+    "file": "global-drought-spei-1.0-return-period-25-years.tif",
+    "name": "Global Drought SPEI 1.0+ Return Period 25 Years.tif",
+    "url": "https://data.humdata.org/dataset/30b85665-4c3d-4dc3-b543-3a567a3dea37/resource/38ee3c61-6130-4a26-b5b4-1106a477a689/download/global-drought-spei-1.0-return-period-25-years.tif",
+    "hdx_size": 1038098907,
+    "served_size": 1038097107,
+    "sha256": "e5a696066473a1d7b97e2e8cd53a36df0ce135653601aa6c70079db0d2a0d994"
+  }
+]

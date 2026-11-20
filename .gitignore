@@ -1,0 +1,19 @@
+# Data files are built by tools/build.sh, live in object storage, and are
+# never committed. The metadata under catalog/ is committed.
+*.parquet
+*.pmtiles
+*.tif
+*.tiff
+*.vrt
+*.ovr.tmp
+*.gpkg
+*.gz
+
+# Secrets
+.env
+.env.*
+
+__pycache__/
+*.pyc
+.venv/
+

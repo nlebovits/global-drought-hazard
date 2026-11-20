@@ -1,0 +1,54 @@
+{
+  "type": "Catalog",
+  "id": "global-drought-hazard",
+  "stac_version": "1.1.0",
+  "description": "A mirror of the [Global Drought Hazard](https://data.humdata.org/dataset/global-drought-hazard) rasters that the Institute for International Law of Peace and Armed Conflict (IFHV), Ruhr University Bochum, publishes on the Humanitarian Data Exchange. The rasters give extreme value return levels of the 6-month Standardised Precipitation Evapotranspiration Index (SPEI-6), 1902 to 2018, for five SPEI thresholds and six return periods (25 to 1000 years). The catalog holds the 30 rasters as cloud-optimized GeoTIFFs. Read [AGENTS.md](AGENTS.md) before you query.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "./catalog.json",
+      "type": "application/json",
+      "title": "Global Drought Hazard"
+    },
+    {
+      "rel": "child",
+      "href": "./drought-hazard/collection.json",
+      "type": "application/json",
+      "title": "SPEI-6 drought return levels"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    },
+    {
+      "rel": "self",
+      "href": "https://data.source.coop/portolan-mirrors/global-drought-hazard/catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "vcs",
+      "href": "https://github.com/nlebovits/global-drought-hazard",
+      "type": "text/html",
+      "title": "Build scripts and metadata"
+    },
+    {
+      "rel": "issues",
+      "href": "https://github.com/nlebovits/global-drought-hazard/issues",
+      "type": "text/html",
+      "title": "Report a problem"
+    }
+  ],
+  "title": "Global Drought Hazard",
+  "stac_extensions": [
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+  ],
+  "updated": "2026-11-20T12:50:43Z"
+}

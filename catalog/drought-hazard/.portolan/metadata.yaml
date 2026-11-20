@@ -1,0 +1,18 @@
+title: "SPEI-6 drought return levels"
+description: >-
+  Extreme value return levels of the 6-month Standardised Precipitation
+  Evapotranspiration Index (SPEI-6), modelled per grid cell from the
+  [CSIC Global SPEI Database](https://spei.csic.es/spei_database/) for
+  January 1902 to December 2018 with Poisson-Generalized Pareto point process
+  models. Each item is one SPEI threshold (-1.0, -1.5, -2.0, -2.5, -3.0) and
+  holds six cloud-optimized GeoTIFFs, one per return period: 25, 50, 100,
+  250, 500, and 1000 years. A pixel is the number of months with SPEI at or
+  below the threshold for that return period. Higher values mean more severe
+  drought. The model resolution is about 0.5°. Read [AGENTS.md](AGENTS.md)
+  for access patterns.
+processing_notes: >-
+  Each item directory holds the six HDX files of one threshold under their
+  upstream file names. The HDX methodology: time-varying parameters for
+  non-stationarity, declustering for tail dependence, and spatiotemporally
+  weighted error term corrections per cell; results resampled bilinearly from
+  about 0.5° to about 0.0083° for publication.

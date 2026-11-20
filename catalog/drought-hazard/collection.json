@@ -1,0 +1,280 @@
+{
+  "type": "Collection",
+  "id": "drought-hazard",
+  "stac_version": "1.1.0",
+  "description": "Extreme value return levels of the 6-month Standardised Precipitation Evapotranspiration Index (SPEI-6), modelled per grid cell from the [CSIC Global SPEI Database](https://spei.csic.es/spei_database/) for January 1902 to December 2018 with Poisson-Generalized Pareto point process models. Each item is one SPEI threshold (-1.0, -1.5, -2.0, -2.5, -3.0) and holds six cloud-optimized GeoTIFFs, one per return period: 25, 50, 100, 250, 500, and 1000 years. A pixel is the number of months with SPEI at or below the threshold for that return period. Higher values mean more severe drought. The model resolution is about 0.5°. Read [AGENTS.md](AGENTS.md) for access patterns.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./spei-1.0/spei-1.0.json",
+      "type": "application/geo+json",
+      "title": "SPEI -1.0 or lower"
+    },
+    {
+      "rel": "item",
+      "href": "./spei-1.5/spei-1.5.json",
+      "type": "application/geo+json",
+      "title": "SPEI -1.5 or lower"
+    },
+    {
+      "rel": "item",
+      "href": "./spei-2.0/spei-2.0.json",
+      "type": "application/geo+json",
+      "title": "SPEI -2.0 or lower"
+    },
+    {
+      "rel": "item",
+      "href": "./spei-2.5/spei-2.5.json",
+      "type": "application/geo+json",
+      "title": "SPEI -2.5 or lower"
+    },
+    {
+      "rel": "item",
+      "href": "./spei-3.0/spei-3.0.json",
+      "type": "application/geo+json",
+      "title": "SPEI -3.0 or lower"
+    },
+    {
+      "rel": "license",
+      "href": "https://creativecommons.org/licenses/by/4.0/",
+      "title": "License"
+    },
+    {
+      "rel": "via",
+      "href": "https://data.humdata.org/dataset/global-drought-hazard",
+      "type": "text/html",
+      "title": "Original source"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+    "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
+    "https://stac-extensions.github.io/raster/v2.0.0/schema.json",
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json",
+    "https://stac-extensions.github.io/item-assets/v1.0.0/schema.json"
+  ],
+  "updated": "2026-11-20T12:50:43Z",
+  "title": "SPEI-6 drought return levels",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180.0,
+          -89.9999928,
+          179.9999856,
+          90.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "1902-01-01T00:00:00Z",
+          "2018-12-31T23:59:59Z"
+        ]
+      ]
+    }
+  },
+  "license": "CC-BY-4.0",
+  "providers": [
+    {
+      "name": "Institute for International Law of Peace and Armed Conflict (IFHV), Ruhr University Bochum",
+      "description": "Daniel Weller and Holger Mann (IFHV) modelled the rasters and published them on the Humanitarian Data Exchange under CC BY 4.0.",
+      "roles": [
+        "producer",
+        "licensor"
+      ],
+      "url": "https://www.ifhv.de"
+    },
+    {
+      "name": "Portolan Mirrors",
+      "description": "Maintains this Portolan mirror: the cloud-optimized GeoTIFFs, STAC metadata, thumbnails, and documentation.",
+      "roles": [
+        "host"
+      ],
+      "url": "https://source.coop/portolan-mirrors/global-drought-hazard"
+    }
+  ],
+  "summaries": {
+    "raster:spatial_resolution": [
+      0.008333333
+    ],
+    "proj:code": [
+      "EPSG:4326"
+    ]
+  },
+  "assets": {
+    "geoparquet-items": {
+      "href": "./items.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "Item index",
+      "roles": [
+        "collection-mirror"
+      ],
+      "file:size": 107671,
+      "file:checksum": "122088f0d5916a8ecfe4c90d31254a1541881b96119ece08ccf7414a6753961e4fa0",
+      "description": "STAC GeoParquet copy of every item in this collection, one row per item. The item JSON is normative."
+    },
+    "thumbnail": {
+      "href": "./thumbnail.png",
+      "type": "image/png",
+      "title": "Thumbnail",
+      "description": "The 100-year return level at SPEI -1.0, rendered by tools/make_thumbs.py.",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 305288,
+      "file:checksum": "122032e2fa64009603dbe2771724598d272b498315bf6b2a8c42be034d73ed9b6be6"
+    }
+  },
+  "item_assets": {
+    "rp-25": {
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "roles": [
+        "data"
+      ],
+      "title": "25-year return period",
+      "bands": [
+        {
+          "name": "return_level",
+          "data_type": "float32",
+          "nodata": -3.4e+38,
+          "unit": "months"
+        }
+      ]
+    },
+    "rp-50": {
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "roles": [
+        "data"
+      ],
+      "title": "50-year return period",
+      "bands": [
+        {
+          "name": "return_level",
+          "data_type": "float32",
+          "nodata": -3.4e+38,
+          "unit": "months"
+        }
+      ]
+    },
+    "rp-100": {
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "roles": [
+        "data"
+      ],
+      "title": "100-year return period",
+      "bands": [
+        {
+          "name": "return_level",
+          "data_type": "float32",
+          "nodata": -3.4e+38,
+          "unit": "months"
+        }
+      ]
+    },
+    "rp-250": {
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "roles": [
+        "data"
+      ],
+      "title": "250-year return period",
+      "bands": [
+        {
+          "name": "return_level",
+          "data_type": "float32",
+          "nodata": -3.4e+38,
+          "unit": "months"
+        }
+      ]
+    },
+    "rp-500": {
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "roles": [
+        "data"
+      ],
+      "title": "500-year return period",
+      "bands": [
+        {
+          "name": "return_level",
+          "data_type": "float32",
+          "nodata": -3.4e+38,
+          "unit": "months"
+        }
+      ]
+    },
+    "rp-1000": {
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "roles": [
+        "data"
+      ],
+      "title": "1000-year return period",
+      "bands": [
+        {
+          "name": "return_level",
+          "data_type": "float32",
+          "nodata": -3.4e+38,
+          "unit": "months"
+        }
+      ]
+    },
+    "source-rp-25": {
+      "type": "image/tiff; application=geotiff",
+      "roles": [
+        "source"
+      ]
+    },
+    "source-rp-50": {
+      "type": "image/tiff; application=geotiff",
+      "roles": [
+        "source"
+      ]
+    },
+    "source-rp-100": {
+      "type": "image/tiff; application=geotiff",
+      "roles": [
+        "source"
+      ]
+    },
+    "source-rp-250": {
+      "type": "image/tiff; application=geotiff",
+      "roles": [
+        "source"
+      ]
+    },
+    "source-rp-500": {
+      "type": "image/tiff; application=geotiff",
+      "roles": [
+        "source"
+      ]
+    },
+    "source-rp-1000": {
+      "type": "image/tiff; application=geotiff",
+      "roles": [
+        "source"
+      ]
+    }
+  }
+}

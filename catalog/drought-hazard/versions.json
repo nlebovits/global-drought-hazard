@@ -1,0 +1,1980 @@
+{
+  "spec_version": "1.0.0",
+  "current_version": "1.0.4",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "created": "2026-11-20T12:50:44.010263Z",
+      "breaking": false,
+      "assets": {
+        "spei-1.0/global-drought-spei-1.0-return-period-100-years.thumb.jpg": {
+          "sha256": "7334503970a9d55486f313e6217f927d2bdf9bc57e5f8fd0d6ad4b0c7a66d0c5",
+          "size_bytes": 22632,
+          "href": "drought-hazard/spei-1.0/global-drought-spei-1.0-return-period-100-years.thumb.jpg",
+          "mtime": 1795179040.3443263
+        },
+        "spei-1.0/global-drought-spei-1.0-return-period-100-years.tif": {
+          "sha256": "ceef64dfa3002379e084540372a1bd8a5ad1cbf0c510f84a1ccbb6910c5c9cb6",
+          "size_bytes": 185354661,
+          "href": "drought-hazard/spei-1.0/global-drought-spei-1.0-return-period-100-years.tif",
+          "mtime": 1795178949.1902637
+        },
+        "spei-1.0/global-drought-spei-1.0-return-period-1000-years.tif": {
+          "sha256": "843b9562bdad7fd49e69a2a98ce844aa9108e349b3e9474212948dcce0a27a2c",
+          "size_bytes": 185007308,
+          "href": "drought-hazard/spei-1.0/global-drought-spei-1.0-return-period-1000-years.tif",
+          "mtime": 1795178949.3622675
+        },
+        "spei-1.0/global-drought-spei-1.0-return-period-25-years.tif": {
+          "sha256": "53f3e4ff55de82b1a2092e3ca9034c415d104e66a01f7ddff8baf4b29e31b50b",
+          "size_bytes": 187989235,
+          "href": "drought-hazard/spei-1.0/global-drought-spei-1.0-return-period-25-years.tif",
+          "mtime": 1795178949.1072617
+        },
+        "spei-1.0/global-drought-spei-1.0-return-period-250-years.tif": {
+          "sha256": "ad1db8ca34d03c21161ad51771aa8f581593b944d2d4bf47504313bf3f45af1c",
+          "size_bytes": 183689083,
+          "href": "drought-hazard/spei-1.0/global-drought-spei-1.0-return-period-250-years.tif",
+          "mtime": 1795178949.3732677
+        },
+        "spei-1.0/global-drought-spei-1.0-return-period-50-years.tif": {
+          "sha256": "64fce0b1b4852edfb65e958c832f80ac89ef9426eaa780d6dbb19ae3c75b756f",
+          "size_bytes": 186794694,
+          "href": "drought-hazard/spei-1.0/global-drought-spei-1.0-return-period-50-years.tif",
+          "mtime": 1795178949.0152597
+        },
+        "spei-1.0/global-drought-spei-1.0-return-period-500-years.tif": {
+          "sha256": "384d0ba44a25d83095b246ebf2d6954a55b72e7cc06c1ff06e5ea2a48dd28a37",
+          "size_bytes": 184139261,
+          "href": "drought-hazard/spei-1.0/global-drought-spei-1.0-return-period-500-years.tif",
+          "source_path": "spei-1.0/global-drought-spei-1.0-return-period-500-years.tif",
+          "mtime": 1795178949.3702676
+        },
+        "spei-1.0/global-drought-spei-1.0-return-period-1000-years.thumb.jpg": {
+          "sha256": "1fd70a70275b877bb5427a82f1538428256e67252880e8531c33e23c1be21933",
+          "size_bytes": 23021,
+          "href": "drought-hazard/spei-1.0/global-drought-spei-1.0-return-period-1000-years.thumb.jpg",
+          "mtime": 1795179041.1291647
+        },
+        "spei-1.0/global-drought-spei-1.0-return-period-25-years.thumb.jpg": {
+          "sha256": "a253b9d9f4e8704b5109ad9e9306ea342c28b220ebe11efdcd434854d5836513",
+          "size_bytes": 22068,
+          "href": "drought-hazard/spei-1.0/global-drought-spei-1.0-return-period-25-years.thumb.jpg",
+          "mtime": 1795179041.1653447
+        },
+        "spei-1.0/global-drought-spei-1.0-return-period-250-years.thumb.jpg": {
+          "sha256": "5886c92de03b208aca8cb2e3000a147f15f70fb362f6932fe5541b5be75fa80d",
+          "size_bytes": 22860,
+          "href": "drought-hazard/spei-1.0/global-drought-spei-1.0-return-period-250-years.thumb.jpg",
+          "mtime": 1795179041.2013457
+        },
+        "spei-1.0/global-drought-spei-1.0-return-period-50-years.thumb.jpg": {
+          "sha256": "6bebf649c1ef8f7dedae7a352a774769fb08420a1ba59983e151023147554a12",
+          "size_bytes": 22396,
+          "href": "drought-hazard/spei-1.0/global-drought-spei-1.0-return-period-50-years.thumb.jpg",
+          "mtime": 1795179041.2373464
+        },
+        "spei-1.0/global-drought-spei-1.0-return-period-500-years.thumb.jpg": {
+          "sha256": "aea562e20338aa2c99dde97e43487ce0138e60e7674bd9f4ba084740781c2d2c",
+          "size_bytes": 22945,
+          "href": "drought-hazard/spei-1.0/global-drought-spei-1.0-return-period-500-years.thumb.jpg",
+          "mtime": 1795179041.2733471
+        },
+        "spei-1.5/global-drought-spei-1.5-return-period-100-years.thumb.jpg": {
+          "sha256": "1fba95d2a4016acb211b92a4ddb7f5f82c6796a21d459f7b1a011116388deb8b",
+          "size_bytes": 23988,
+          "href": "drought-hazard/spei-1.5/global-drought-spei-1.5-return-period-100-years.thumb.jpg",
+          "mtime": 1795179041.3101513
+        },
+        "spei-1.5/global-drought-spei-1.5-return-period-100-years.tif": {
+          "sha256": "53e28181ca9f3f06c4d986765b6893f1caa185b7699f1325e496c09d1b59babb",
+          "size_bytes": 199733167,
+          "href": "drought-hazard/spei-1.5/global-drought-spei-1.5-return-period-100-years.tif",
+          "mtime": 1795178949.431269
+        },
+        "spei-1.5/global-drought-spei-1.5-return-period-1000-years.tif": {
+          "sha256": "64149dd929f0c5515179969a7e3a0b35a74861729736e4721902860f06b4914e",
+          "size_bytes": 179605821,
+          "href": "drought-hazard/spei-1.5/global-drought-spei-1.5-return-period-1000-years.tif",
+          "mtime": 1795178949.8652787
+        },
+        "spei-1.5/global-drought-spei-1.5-return-period-25-years.tif": {
+          "sha256": "79a3fb74dc9a7b16f0e389de64d8bdbd85181a1345c6b6ca04cb4a81eeb4af33",
+          "size_bytes": 210548141,
+          "href": "drought-hazard/spei-1.5/global-drought-spei-1.5-return-period-25-years.tif",
+          "mtime": 1795178949.8162777
+        },
+        "spei-1.5/global-drought-spei-1.5-return-period-250-years.tif": {
+          "sha256": "f376f4bf75b715f36d1ad573329c6d5652babf5ed082f78ffc2a0f1eba5962aa",
+          "size_bytes": 189310729,
+          "href": "drought-hazard/spei-1.5/global-drought-spei-1.5-return-period-250-years.tif",
+          "mtime": 1795178949.738276
+        },
+        "spei-1.5/global-drought-spei-1.5-return-period-50-years.tif": {
+          "sha256": "318b0c57e5178c8ec461d69bbffbc541c8711d1d3ab335ed5220af87b2912776",
+          "size_bytes": 207198891,
+          "href": "drought-hazard/spei-1.5/global-drought-spei-1.5-return-period-50-years.tif",
+          "mtime": 1795178949.5902727
+        },
+        "spei-1.5/global-drought-spei-1.5-return-period-500-years.tif": {
+          "sha256": "e7cf5e5ad2afa71c23b3fc9c964e25dbdc226a061063f321a31a0cce8deae27b",
+          "size_bytes": 183554656,
+          "href": "drought-hazard/spei-1.5/global-drought-spei-1.5-return-period-500-years.tif",
+          "source_path": "spei-1.5/global-drought-spei-1.5-return-period-500-years.tif",
+          "mtime": 1795178949.830278
+        },
+        "spei-1.5/global-drought-spei-1.5-return-period-1000-years.thumb.jpg": {
+          "sha256": "b54712c460026ef357de5fdd9d3c3a6d944ecb03b2afe13be997c6ecf8ca45b6",
+          "size_bytes": 23794,
+          "href": "drought-hazard/spei-1.5/global-drought-spei-1.5-return-period-1000-years.thumb.jpg",
+          "mtime": 1795179042.1293666
+        },
+        "spei-1.5/global-drought-spei-1.5-return-period-25-years.thumb.jpg": {
+          "sha256": "f7e1e0429d08d75601a97f0669d65db15be0e4723c8a09d1d68365b33614afc2",
+          "size_bytes": 22702,
+          "href": "drought-hazard/spei-1.5/global-drought-spei-1.5-return-period-25-years.thumb.jpg",
+          "mtime": 1795179042.1653674
+        },
+        "spei-1.5/global-drought-spei-1.5-return-period-250-years.thumb.jpg": {
+          "sha256": "6fd5ca76087577645aa23eada56e970009ff9aabcf6cfdcf07f7f850e38dce0a",
+          "size_bytes": 23942,
+          "href": "drought-hazard/spei-1.5/global-drought-spei-1.5-return-period-250-years.thumb.jpg",
+          "mtime": 1795179042.20114
+        },
+        "spei-1.5/global-drought-spei-1.5-return-period-50-years.thumb.jpg": {
+          "sha256": "e77ece21ef100e820969f26a11c737aaf11830aa5b8f1f1332ce2c4098e5b915",
+          "size_bytes": 23679,
+          "href": "drought-hazard/spei-1.5/global-drought-spei-1.5-return-period-50-years.thumb.jpg",
+          "mtime": 1795179042.237369
+        },
+        "spei-1.5/global-drought-spei-1.5-return-period-500-years.thumb.jpg": {
+          "sha256": "d25cef134f4e3f8680b60e426478a712d67fa68beb9e4c2f00fca7e3400f3be9",
+          "size_bytes": 23870,
+          "href": "drought-hazard/spei-1.5/global-drought-spei-1.5-return-period-500-years.thumb.jpg",
+          "mtime": 1795179042.2731495
+        },
+        "spei-2.0/global-drought-spei-2.0-return-period-100-years.thumb.jpg": {
+          "sha256": "a3eee28c84e661214e71a2a4ac54b04a4ed8a20f1abc58871d83262cdf32f636",
+          "size_bytes": 21820,
+          "href": "drought-hazard/spei-2.0/global-drought-spei-2.0-return-period-100-years.thumb.jpg",
+          "mtime": 1795179042.3083706
+        },
+        "spei-2.0/global-drought-spei-2.0-return-period-100-years.tif": {
+          "sha256": "f82e3c6331618f08ff6d108ffd68eecd78aa30e3c31b85277a4e05c5e99424f5",
+          "size_bytes": 162593950,
+          "href": "drought-hazard/spei-2.0/global-drought-spei-2.0-return-period-100-years.tif",
+          "mtime": 1795178947.921235
+        },
+        "spei-2.0/global-drought-spei-2.0-return-period-1000-years.tif": {
+          "sha256": "1632778979442dadff3c4fa51017dbe77ed0b1d37daeec49f02c9c426e2f649c",
+          "size_bytes": 139794687,
+          "href": "drought-hazard/spei-2.0/global-drought-spei-2.0-return-period-1000-years.tif",
+          "mtime": 1795178948.3402445
+        },
+        "spei-2.0/global-drought-spei-2.0-return-period-25-years.tif": {
+          "sha256": "e52eb1c7c0da00ee80e38d439ad46d25e51ffd69f5f98637f2946fd363eff69d",
+          "size_bytes": 185843847,
+          "href": "drought-hazard/spei-2.0/global-drought-spei-2.0-return-period-25-years.tif",
+          "mtime": 1795178947.3542225
+        },
+        "spei-2.0/global-drought-spei-2.0-return-period-250-years.tif": {
+          "sha256": "745975543bc8e7edaae2ebae8b2d1f98ae46a3fdaaaff8b86b1452a837624c35",
+          "size_bytes": 154184020,
+          "href": "drought-hazard/spei-2.0/global-drought-spei-2.0-return-period-250-years.tif",
+          "mtime": 1795178988.3711424
+        },
+        "spei-2.0/global-drought-spei-2.0-return-period-50-years.tif": {
+          "sha256": "808d62f6f8c08f0a0484974637932e27894acd2bf9b2223cb695c04ac0c1fe89",
+          "size_bytes": 169804268,
+          "href": "drought-hazard/spei-2.0/global-drought-spei-2.0-return-period-50-years.tif",
+          "mtime": 1795178988.6751494
+        },
+        "spei-2.0/global-drought-spei-2.0-return-period-500-years.tif": {
+          "sha256": "936478782035439f02f66f1499f437b19edee816939cfc5cdf6553f487a9ca30",
+          "size_bytes": 144857850,
+          "href": "drought-hazard/spei-2.0/global-drought-spei-2.0-return-period-500-years.tif",
+          "source_path": "spei-2.0/global-drought-spei-2.0-return-period-500-years.tif",
+          "mtime": 1795178989.5051682
+        },
+        "spei-2.0/global-drought-spei-2.0-return-period-1000-years.thumb.jpg": {
+          "sha256": "6823f09fceb559e444f07fa03a959bc427bedb2413a5e1a92f127c5bb3e6dfde",
+          "size_bytes": 19789,
+          "href": "drought-hazard/spei-2.0/global-drought-spei-2.0-return-period-1000-years.thumb.jpg",
+          "mtime": 1795179042.984386
+        },
+        "spei-2.0/global-drought-spei-2.0-return-period-25-years.thumb.jpg": {
+          "sha256": "fa74bba8153f7ed43c9bc3125c968262a31d79a9a05c77a1e7ad2b7e25e9fe14",
+          "size_bytes": 24167,
+          "href": "drought-hazard/spei-2.0/global-drought-spei-2.0-return-period-25-years.thumb.jpg",
+          "mtime": 1795179043.020387
+        },
+        "spei-2.0/global-drought-spei-2.0-return-period-250-years.thumb.jpg": {
+          "sha256": "56f5b56d20d8e9538e021849304b9a71f2049ab1ed8455b9caaa0e75a4e51aef",
+          "size_bytes": 20367,
+          "href": "drought-hazard/spei-2.0/global-drought-spei-2.0-return-period-250-years.thumb.jpg",
+          "mtime": 1795179043.0573876
+        },
+        "spei-2.0/global-drought-spei-2.0-return-period-50-years.thumb.jpg": {
+          "sha256": "b308b574f2586165b2aa5fca7213926a2f653a6dfcc2ac3a7f8672d4cecac567",
+          "size_bytes": 23372,
+          "href": "drought-hazard/spei-2.0/global-drought-spei-2.0-return-period-50-years.thumb.jpg",
+          "mtime": 1795179043.0933886
+        },
+        "spei-2.0/global-drought-spei-2.0-return-period-500-years.thumb.jpg": {
+          "sha256": "5aae9770d334ffbb1b805876501e370f5c11b2472aaf34fc0f4ca706a9f0f328",
+          "size_bytes": 19984,
+          "href": "drought-hazard/spei-2.0/global-drought-spei-2.0-return-period-500-years.thumb.jpg",
+          "mtime": 1795179043.1293893
+        },
+        "spei-2.5/global-drought-spei-2.5-return-period-100-years.thumb.jpg": {
+          "sha256": "bd2e7cf5218ef90ece404ecd7b0915c7536014c66d85d49a9ec8aa021003fb5b",
+          "size_bytes": 18004,
+          "href": "drought-hazard/spei-2.5/global-drought-spei-2.5-return-period-100-years.thumb.jpg",
+          "mtime": 1795179043.1641426
+        },
+        "spei-2.5/global-drought-spei-2.5-return-period-100-years.tif": {
+          "sha256": "565160754ce1c2ec73ffabb228eadf5c814885f011b4471af589d02f97bd59ff",
+          "size_bytes": 43426267,
+          "href": "drought-hazard/spei-2.5/global-drought-spei-2.5-return-period-100-years.tif",
+          "mtime": 1795178981.0369775
+        },
+        "spei-2.5/global-drought-spei-2.5-return-period-1000-years.tif": {
+          "sha256": "f00c047cb76b9783355bbbadaf0f4eba4ffb382a1cfe9b603954bda2d4dff7ee",
+          "size_bytes": 40985223,
+          "href": "drought-hazard/spei-2.5/global-drought-spei-2.5-return-period-1000-years.tif",
+          "mtime": 1795178981.2579825
+        },
+        "spei-2.5/global-drought-spei-2.5-return-period-25-years.tif": {
+          "sha256": "1c6a18f03a23475fb3cc055e42f5aea28fa883a7240692cf9e4156b2262448fa",
+          "size_bytes": 38542682,
+          "href": "drought-hazard/spei-2.5/global-drought-spei-2.5-return-period-25-years.tif",
+          "mtime": 1795178980.2439597
+        },
+        "spei-2.5/global-drought-spei-2.5-return-period-250-years.tif": {
+          "sha256": "6c22b9895e695a5fa4a9d49dd27f25feb5e8891c3685fa9928857ed36709c30c",
+          "size_bytes": 41478327,
+          "href": "drought-hazard/spei-2.5/global-drought-spei-2.5-return-period-250-years.tif",
+          "mtime": 1795178982.617013
+        },
+        "spei-2.5/global-drought-spei-2.5-return-period-50-years.tif": {
+          "sha256": "2c102335a0cfb63050cfbef5dbdbafe5f8d7b39a5ff9a5a6f3d31aedea8dcdd7",
+          "size_bytes": 44279491,
+          "href": "drought-hazard/spei-2.5/global-drought-spei-2.5-return-period-50-years.tif",
+          "mtime": 1795178982.671014
+        },
+        "spei-2.5/global-drought-spei-2.5-return-period-500-years.tif": {
+          "sha256": "a4869561e5182e95f904274d9111f60b670334eb6d0b25c1e53ff357e3cd9182",
+          "size_bytes": 40289885,
+          "href": "drought-hazard/spei-2.5/global-drought-spei-2.5-return-period-500-years.tif",
+          "source_path": "spei-2.5/global-drought-spei-2.5-return-period-500-years.tif",
+          "mtime": 1795178982.6510136
+        },
+        "spei-2.5/global-drought-spei-2.5-return-period-1000-years.thumb.jpg": {
+          "sha256": "7e09c523dba55b9d2702c18329e5efe345f37cd5d1eabd96b6c71aa65e468ceb",
+          "size_bytes": 11872,
+          "href": "drought-hazard/spei-2.5/global-drought-spei-2.5-return-period-1000-years.thumb.jpg",
+          "mtime": 1795179043.3672612
+        },
+        "spei-2.5/global-drought-spei-2.5-return-period-25-years.thumb.jpg": {
+          "sha256": "4bd5fbab9c85e2a3f5bfd58cf60370a5b107e365b964736a2700e2cde80e4ec9",
+          "size_bytes": 9151,
+          "href": "drought-hazard/spei-2.5/global-drought-spei-2.5-return-period-25-years.thumb.jpg",
+          "mtime": 1795179043.4013956
+        },
+        "spei-2.5/global-drought-spei-2.5-return-period-250-years.thumb.jpg": {
+          "sha256": "a72fbdf95d293af57af2cadaf02c6ecb066281a22d635a8b1cc67e379c293243",
+          "size_bytes": 15144,
+          "href": "drought-hazard/spei-2.5/global-drought-spei-2.5-return-period-250-years.thumb.jpg",
+          "mtime": 1795179043.4371045
+        },
+        "spei-2.5/global-drought-spei-2.5-return-period-50-years.thumb.jpg": {
+          "sha256": "04720bf0fce42c9411db33e6e0722ede1498e0e64246de67a0f2ebfd7c409fdf",
+          "size_bytes": 15892,
+          "href": "drought-hazard/spei-2.5/global-drought-spei-2.5-return-period-50-years.thumb.jpg",
+          "mtime": 1795179043.472397
+        },
+        "spei-2.5/global-drought-spei-2.5-return-period-500-years.thumb.jpg": {
+          "sha256": "15e35cdc45bd553fb660ad0a5d40facada8e16eea394f79137a982d68ee5cb13",
+          "size_bytes": 13155,
+          "href": "drought-hazard/spei-2.5/global-drought-spei-2.5-return-period-500-years.thumb.jpg",
+          "mtime": 1795179043.5083978
+        },
+        "spei-3.0/global-drought-spei-3.0-return-period-100-years.thumb.jpg": {
+          "sha256": "4178312ba82a544d0c67a010dba16ae491c2434575004f899ec279537683bf5d",
+          "size_bytes": 5273,
+          "href": "drought-hazard/spei-3.0/global-drought-spei-3.0-return-period-100-years.thumb.jpg",
+          "mtime": 1795179043.5433986
+        },
+        "spei-3.0/global-drought-spei-3.0-return-period-100-years.tif": {
+          "sha256": "3916494d765bab9af7a7658460370f3a0ca7b9aa0940a0954c9fc5ed736118b0",
+          "size_bytes": 25502614,
+          "href": "drought-hazard/spei-3.0/global-drought-spei-3.0-return-period-100-years.tif",
+          "mtime": 1795178980.5849674
+        },
+        "spei-3.0/global-drought-spei-3.0-return-period-1000-years.tif": {
+          "sha256": "a3b25216f739bb7bc03b95105c243da37be920424390dc9d491f26d7420421c5",
+          "size_bytes": 25347615,
+          "href": "drought-hazard/spei-3.0/global-drought-spei-3.0-return-period-1000-years.tif",
+          "mtime": 1795178980.753971
+        },
+        "spei-3.0/global-drought-spei-3.0-return-period-25-years.tif": {
+          "sha256": "3f1d3f69d6806f28aedf6cdfaca3de491e781512ed19b1c75b44d0390d6743cb",
+          "size_bytes": 25045710,
+          "href": "drought-hazard/spei-3.0/global-drought-spei-3.0-return-period-25-years.tif",
+          "mtime": 1795178980.5969677
+        },
+        "spei-3.0/global-drought-spei-3.0-return-period-250-years.tif": {
+          "sha256": "ca5c99a27b6658355350db651785294a7a641c50312f624caab0663861106e96",
+          "size_bytes": 25380280,
+          "href": "drought-hazard/spei-3.0/global-drought-spei-3.0-return-period-250-years.tif",
+          "mtime": 1795178981.002977
+        },
+        "spei-3.0/global-drought-spei-3.0-return-period-50-years.tif": {
+          "sha256": "6dbca17d920838a5156b29ff4df3bdc19425942c19159e367266dd09a0f3cc04",
+          "size_bytes": 25511856,
+          "href": "drought-hazard/spei-3.0/global-drought-spei-3.0-return-period-50-years.tif",
+          "mtime": 1795178981.0069768
+        },
+        "spei-3.0/global-drought-spei-3.0-return-period-500-years.tif": {
+          "sha256": "325e2a6e8f8d239a6c6171cc883805af681ab1b2a1e24f923ac2bca7ce1dad04",
+          "size_bytes": 25284279,
+          "href": "drought-hazard/spei-3.0/global-drought-spei-3.0-return-period-500-years.tif",
+          "source_path": "spei-3.0/global-drought-spei-3.0-return-period-500-years.tif",
+          "mtime": 1795178980.9149747
+        },
+        "spei-3.0/global-drought-spei-3.0-return-period-1000-years.thumb.jpg": {
+          "sha256": "41a48572d1be24e1d4b42a3da61e435a48f735995586668dc8d07d49ea59a27a",
+          "size_bytes": 3447,
+          "href": "drought-hazard/spei-3.0/global-drought-spei-3.0-return-period-1000-years.thumb.jpg",
+          "mtime": 1795179043.6803951
+        },
+        "spei-3.0/global-drought-spei-3.0-return-period-25-years.thumb.jpg": {
+          "sha256": "46de2f5b55d90f19a71ef3058a1ef8fc546d4490cba4c755bcad7429c1d85e42",
+          "size_bytes": 2547,
+          "href": "drought-hazard/spei-3.0/global-drought-spei-3.0-return-period-25-years.thumb.jpg",
+          "mtime": 1795179043.7138946
+        },
+        "spei-3.0/global-drought-spei-3.0-return-period-250-years.thumb.jpg": {
+          "sha256": "a94622910de1ed21621d4e0617f4486c38b1f3f8732f0df49810db8c6ca31318",
+          "size_bytes": 4431,
+          "href": "drought-hazard/spei-3.0/global-drought-spei-3.0-return-period-250-years.thumb.jpg",
+          "mtime": 1795179043.7484033
+        },
+        "spei-3.0/global-drought-spei-3.0-return-period-50-years.thumb.jpg": {
+          "sha256": "493214e8baba25011fa651d8995de95b3a8260694406ce42b17718c8f688b70e",
+          "size_bytes": 4690,
+          "href": "drought-hazard/spei-3.0/global-drought-spei-3.0-return-period-50-years.thumb.jpg",
+          "mtime": 1795179043.7835076
+        },
+        "spei-3.0/global-drought-spei-3.0-return-period-500-years.thumb.jpg": {
+          "sha256": "5ef023a13436833949c0faac8f0c60cf6d5de6d0cf575bbdf7055de4cb6df489",
+          "size_bytes": 3868,
+          "href": "drought-hazard/spei-3.0/global-drought-spei-3.0-return-period-500-years.thumb.jpg",
+          "mtime": 1795179043.817975
+        },
+        "items.parquet": {
+          "sha256": "532fdc01ba8798801266a55532a3fa4845fc427b473a94e84e85250ef0c19aff",
+          "size_bytes": 97881,
+          "href": "drought-hazard/items.parquet",
+          "mtime": 1795179043.999409,
+          "source_fingerprint": "93bfd460d739b93ddfe3f33a2fc68bea7fb3b80760f78954748dd5aa0de98d2f"
+        }
+      },
+      "changes": [
+        "spei-1.0/global-drought-spei-1.0-return-period-100-years.thumb.jpg",
+        "spei-1.0/global-drought-spei-1.0-return-period-100-years.tif",
+        "spei-1.0/global-drought-spei-1.0-return-period-1000-years.tif",
+        "spei-1.0/global-drought-spei-1.0-return-period-25-years.tif",
+        "spei-1.0/global-drought-spei-1.0-return-period-250-years.tif",
+        "spei-1.0/global-drought-spei-1.0-return-period-50-years.tif",
+        "spei-1.0/global-drought-spei-1.0-return-period-500-years.tif",
+        "spei-1.0/global-drought-spei-1.0-return-period-1000-years.thumb.jpg",
+        "spei-1.0/global-drought-spei-1.0-return-period-25-years.thumb.jpg",
+        "spei-1.0/global-drought-spei-1.0-return-period-250-years.thumb.jpg",
+        "spei-1.0/global-drought-spei-1.0-return-period-50-years.thumb.jpg",
+        "spei-1.0/global-drought-spei-1.0-return-period-500-years.thumb.jpg",
+        "spei-1.5/global-drought-spei-1.5-return-period-100-years.thumb.jpg",
+        "spei-1.5/global-drought-spei-1.5-return-period-100-years.tif",
+        "spei-1.5/global-drought-spei-1.5-return-period-1000-years.tif",
+        "spei-1.5/global-drought-spei-1.5-return-period-25-years.tif",
+        "spei-1.5/global-drought-spei-1.5-return-period-250-years.tif",
+        "spei-1.5/global-drought-spei-1.5-return-period-50-years.tif",
+        "spei-1.5/global-drought-spei-1.5-return-period-500-years.tif",
+        "spei-1.5/global-drought-spei-1.5-return-period-1000-years.thumb.jpg",
+        "spei-1.5/global-drought-spei-1.5-return-period-25-years.thumb.jpg",
+        "spei-1.5/global-drought-spei-1.5-return-period-250-years.thumb.jpg",
+        "spei-1.5/global-drought-spei-1.5-return-period-50-years.thumb.jpg",
+        "spei-1.5/global-drought-spei-1.5-return-period-500-years.thumb.jpg",
+        "spei-2.0/global-drought-spei-2.0-return-period-100-years.thumb.jpg",
+        "spei-2.0/global-drought-spei-2.0-return-period-100-years.tif",
+        "spei-2.0/global-drought-spei-2.0-return-period-1000-years.tif",
+        "spei-2.0/global-drought-spei-2.0-return-period-25-years.tif",
+        "spei-2.0/global-drought-spei-2.0-return-period-250-years.tif",
+        "spei-2.0/global-drought-spei-2.0-return-period-50-years.tif",
+        "spei-2.0/global-drought-spei-2.0-return-period-500-years.tif",
+        "spei-2.0/global-drought-spei-2.0-return-period-1000-years.thumb.jpg",
+        "spei-2.0/global-drought-spei-2.0-return-period-25-years.thumb.jpg",
+        "spei-2.0/global-drought-spei-2.0-return-period-250-years.thumb.jpg",
+        "spei-2.0/global-drought-spei-2.0-return-period-50-years.thumb.jpg",
+        "spei-2.0/global-drought-spei-2.0-return-period-500-years.thumb.jpg",
+        "spei-2.5/global-drought-spei-2.5-return-period-100-years.thumb.jpg",
+        "spei-2.5/global-drought-spei-2.5-return-period-100-years.tif",
+        "spei-2.5/global-drought-spei-2.5-return-period-1000-years.tif",
+        "spei-2.5/global-drought-spei-2.5-return-period-25-years.tif",
+        "spei-2.5/global-drought-spei-2.5-return-period-250-years.tif",
+        "spei-2.5/global-drought-spei-2.5-return-period-50-years.tif",
+        "spei-2.5/global-drought-spei-2.5-return-period-500-years.tif",
+        "spei-2.5/global-drought-spei-2.5-return-period-1000-years.thumb.jpg",
+        "spei-2.5/global-drought-spei-2.5-return-period-25-years.thumb.jpg",
+        "spei-2.5/global-drought-spei-2.5-return-period-250-years.thumb.jpg",
+        "spei-2.5/global-drought-spei-2.5-return-period-50-years.thumb.jpg",
+        "spei-2.5/global-drought-spei-2.5-return-period-500-years.thumb.jpg",
+        "spei-3.0/global-drought-spei-3.0-return-period-100-years.thumb.jpg",
+        "spei-3.0/global-drought-spei-3.0-return-period-100-years.tif",
+        "spei-3.0/global-drought-spei-3.0-return-period-1000-years.tif",
+        "spei-3.0/global-drought-spei-3.0-return-period-25-years.tif",
+        "spei-3.0/global-drought-spei-3.0-return-period-250-years.tif",
+        "spei-3.0/global-drought-spei-3.0-return-period-50-years.tif",
+        "spei-3.0/global-drought-spei-3.0-return-period-500-years.tif",
+        "spei-3.0/global-drought-spei-3.0-return-period-1000-years.thumb.jpg",
+        "spei-3.0/global-drought-spei-3.0-return-period-25-years.thumb.jpg",
+        "spei-3.0/global-drought-spei-3.0-return-period-250-years.thumb.jpg",
+        "spei-3.0/global-drought-spei-3.0-return-period-50-years.thumb.jpg",
+        "spei-3.0/global-drought-spei-3.0-return-period-500-years.thumb.jpg",
+        "items.parquet"
+      ]
+    },
+    {
+      "version": "1.0.1",
+      "created": "2026-11-20T12:52:32.029401Z",
+      "breaking": false,
+      "assets": {
+        "spei-1.0/global-drought-spei-1.0-return-period-100-years.thumb.jpg": {
+          "sha256": "7334503970a9d55486f313e6217f927d2bdf9bc57e5f8fd0d6ad4b0c7a66d0c5",
+          "size_bytes": 22632,
+          "href": "drought-hazard/spei-1.0/global-drought-spei-1.0-return-period-100-years.thumb.jpg",
+          "mtime": 1795179040.3443263
+        },
+        "spei-1.0/global-drought-spei-1.0-return-period-100-years.tif": {
+          "sha256": "ceef64dfa3002379e084540372a1bd8a5ad1cbf0c510f84a1ccbb6910c5c9cb6",
+          "size_bytes": 185354661,
+          "href": "drought-hazard/spei-1.0/global-drought-spei-1.0-return-period-100-years.tif",
+          "mtime": 1795178949.1902637
+        },
+        "spei-1.0/global-drought-spei-1.0-return-period-1000-years.tif": {
+          "sha256": "843b9562bdad7fd49e69a2a98ce844aa9108e349b3e9474212948dcce0a27a2c",
+          "size_bytes": 185007308,
+          "href": "drought-hazard/spei-1.0/global-drought-spei-1.0-return-period-1000-years.tif",
+          "mtime": 1795178949.3622675
+        },
+        "spei-1.0/global-drought-spei-1.0-return-period-25-years.tif": {
+          "sha256": "53f3e4ff55de82b1a2092e3ca9034c415d104e66a01f7ddff8baf4b29e31b50b",
+          "size_bytes": 187989235,
+          "href": "drought-hazard/spei-1.0/global-drought-spei-1.0-return-period-25-years.tif",
+          "mtime": 1795178949.1072617
+        },
+        "spei-1.0/global-drought-spei-1.0-return-period-250-years.tif": {
+          "sha256": "ad1db8ca34d03c21161ad51771aa8f581593b944d2d4bf47504313bf3f45af1c",
+          "size_bytes": 183689083,
+          "href": "drought-hazard/spei-1.0/global-drought-spei-1.0-return-period-250-years.tif",
+          "mtime": 1795178949.3732677
+        },
+        "spei-1.0/global-drought-spei-1.0-return-period-50-years.tif": {
+          "sha256": "64fce0b1b4852edfb65e958c832f80ac89ef9426eaa780d6dbb19ae3c75b756f",
+          "size_bytes": 186794694,
+          "href": "drought-hazard/spei-1.0/global-drought-spei-1.0-return-period-50-years.tif",
+          "mtime": 1795178949.0152597
+        },
+        "spei-1.0/global-drought-spei-1.0-return-period-500-years.tif": {
+          "sha256": "384d0ba44a25d83095b246ebf2d6954a55b72e7cc06c1ff06e5ea2a48dd28a37",
+          "size_bytes": 184139261,
+          "href": "drought-hazard/spei-1.0/global-drought-spei-1.0-return-period-500-years.tif",
+          "source_path": "spei-1.0/global-drought-spei-1.0-return-period-500-years.tif",
+          "mtime": 1795178949.3702676
+        },
+        "spei-1.0/global-drought-spei-1.0-return-period-1000-years.thumb.jpg": {
+          "sha256": "1fd70a70275b877bb5427a82f1538428256e67252880e8531c33e23c1be21933",
+          "size_bytes": 23021,
+          "href": "drought-hazard/spei-1.0/global-drought-spei-1.0-return-period-1000-years.thumb.jpg",
+          "mtime": 1795179041.1291647
+        },
+        "spei-1.0/global-drought-spei-1.0-return-period-25-years.thumb.jpg": {
+          "sha256": "a253b9d9f4e8704b5109ad9e9306ea342c28b220ebe11efdcd434854d5836513",
+          "size_bytes": 22068,
+          "href": "drought-hazard/spei-1.0/global-drought-spei-1.0-return-period-25-years.thumb.jpg",
+          "mtime": 1795179041.1653447
+        },
+        "spei-1.0/global-drought-spei-1.0-return-period-250-years.thumb.jpg": {
+          "sha256": "5886c92de03b208aca8cb2e3000a147f15f70fb362f6932fe5541b5be75fa80d",
+          "size_bytes": 22860,
+          "href": "drought-hazard/spei-1.0/global-drought-spei-1.0-return-period-250-years.thumb.jpg",
+          "mtime": 1795179041.2013457
+        },
+        "spei-1.0/global-drought-spei-1.0-return-period-50-years.thumb.jpg": {
+          "sha256": "6bebf649c1ef8f7dedae7a352a774769fb08420a1ba59983e151023147554a12",
+          "size_bytes": 22396,
+          "href": "drought-hazard/spei-1.0/global-drought-spei-1.0-return-period-50-years.thumb.jpg",
+          "mtime": 1795179041.2373464
+        },
+        "spei-1.0/global-drought-spei-1.0-return-period-500-years.thumb.jpg": {
+          "sha256": "aea562e20338aa2c99dde97e43487ce0138e60e7674bd9f4ba084740781c2d2c",
+          "size_bytes": 22945,
+          "href": "drought-hazard/spei-1.0/global-drought-spei-1.0-return-period-500-years.thumb.jpg",
+          "mtime": 1795179041.2733471
+        },
+        "spei-1.5/global-drought-spei-1.5-return-period-100-years.thumb.jpg": {
+          "sha256": "1fba95d2a4016acb211b92a4ddb7f5f82c6796a21d459f7b1a011116388deb8b",
+          "size_bytes": 23988,
+          "href": "drought-hazard/spei-1.5/global-drought-spei-1.5-return-period-100-years.thumb.jpg",
+          "mtime": 1795179041.3101513
+        },
+        "spei-1.5/global-drought-spei-1.5-return-period-100-years.tif": {
+          "sha256": "53e28181ca9f3f06c4d986765b6893f1caa185b7699f1325e496c09d1b59babb",
+          "size_bytes": 199733167,
+          "href": "drought-hazard/spei-1.5/global-drought-spei-1.5-return-period-100-years.tif",
+          "mtime": 1795178949.431269
+        },
+        "spei-1.5/global-drought-spei-1.5-return-period-1000-years.tif": {
+          "sha256": "64149dd929f0c5515179969a7e3a0b35a74861729736e4721902860f06b4914e",
+          "size_bytes": 179605821,
+          "href": "drought-hazard/spei-1.5/global-drought-spei-1.5-return-period-1000-years.tif",
+          "mtime": 1795178949.8652787
+        },
+        "spei-1.5/global-drought-spei-1.5-return-period-25-years.tif": {
+          "sha256": "79a3fb74dc9a7b16f0e389de64d8bdbd85181a1345c6b6ca04cb4a81eeb4af33",
+          "size_bytes": 210548141,
+          "href": "drought-hazard/spei-1.5/global-drought-spei-1.5-return-period-25-years.tif",
+          "mtime": 1795178949.8162777
+        },
+        "spei-1.5/global-drought-spei-1.5-return-period-250-years.tif": {
+          "sha256": "f376f4bf75b715f36d1ad573329c6d5652babf5ed082f78ffc2a0f1eba5962aa",
+          "size_bytes": 189310729,
+          "href": "drought-hazard/spei-1.5/global-drought-spei-1.5-return-period-250-years.tif",
+          "mtime": 1795178949.738276
+        },
+        "spei-1.5/global-drought-spei-1.5-return-period-50-years.tif": {
+          "sha256": "318b0c57e5178c8ec461d69bbffbc541c8711d1d3ab335ed5220af87b2912776",
+          "size_bytes": 207198891,
+          "href": "drought-hazard/spei-1.5/global-drought-spei-1.5-return-period-50-years.tif",
+          "mtime": 1795178949.5902727
+        },
+        "spei-1.5/global-drought-spei-1.5-return-period-500-years.tif": {
+          "sha256": "e7cf5e5ad2afa71c23b3fc9c964e25dbdc226a061063f321a31a0cce8deae27b",
+          "size_bytes": 183554656,
+          "href": "drought-hazard/spei-1.5/global-drought-spei-1.5-return-period-500-years.tif",
+          "source_path": "spei-1.5/global-drought-spei-1.5-return-period-500-years.tif",
+          "mtime": 1795178949.830278
+        },
+        "spei-1.5/global-drought-spei-1.5-return-period-1000-years.thumb.jpg": {
+          "sha256": "b54712c460026ef357de5fdd9d3c3a6d944ecb03b2afe13be997c6ecf8ca45b6",
+          "size_bytes": 23794,
+          "href": "drought-hazard/spei-1.5/global-drought-spei-1.5-return-period-1000-years.thumb.jpg",
+          "mtime": 1795179042.1293666
+        },
+        "spei-1.5/global-drought-spei-1.5-return-period-25-years.thumb.jpg": {
+          "sha256": "f7e1e0429d08d75601a97f0669d65db15be0e4723c8a09d1d68365b33614afc2",
+          "size_bytes": 22702,
+          "href": "drought-hazard/spei-1.5/global-drought-spei-1.5-return-period-25-years.thumb.jpg",
+          "mtime": 1795179042.1653674
+        },
+        "spei-1.5/global-drought-spei-1.5-return-period-250-years.thumb.jpg": {
+          "sha256": "6fd5ca76087577645aa23eada56e970009ff9aabcf6cfdcf07f7f850e38dce0a",
+          "size_bytes": 23942,
+          "href": "drought-hazard/spei-1.5/global-drought-spei-1.5-return-period-250-years.thumb.jpg",
+          "mtime": 1795179042.20114
+        },
+        "spei-1.5/global-drought-spei-1.5-return-period-50-years.thumb.jpg": {
+          "sha256": "e77ece21ef100e820969f26a11c737aaf11830aa5b8f1f1332ce2c4098e5b915",
+          "size_bytes": 23679,
+          "href": "drought-hazard/spei-1.5/global-drought-spei-1.5-return-period-50-years.thumb.jpg",
+          "mtime": 1795179042.237369
+        },
+        "spei-1.5/global-drought-spei-1.5-return-period-500-years.thumb.jpg": {
+          "sha256": "d25cef134f4e3f8680b60e426478a712d67fa68beb9e4c2f00fca7e3400f3be9",
+          "size_bytes": 23870,
+          "href": "drought-hazard/spei-1.5/global-drought-spei-1.5-return-period-500-years.thumb.jpg",
+          "mtime": 1795179042.2731495
+        },
+        "spei-2.0/global-drought-spei-2.0-return-period-100-years.thumb.jpg": {
+          "sha256": "a3eee28c84e661214e71a2a4ac54b04a4ed8a20f1abc58871d83262cdf32f636",
+          "size_bytes": 21820,
+          "href": "drought-hazard/spei-2.0/global-drought-spei-2.0-return-period-100-years.thumb.jpg",
+          "mtime": 1795179042.3083706
+        },
+        "spei-2.0/global-drought-spei-2.0-return-period-100-years.tif": {
+          "sha256": "f82e3c6331618f08ff6d108ffd68eecd78aa30e3c31b85277a4e05c5e99424f5",
+          "size_bytes": 162593950,
+          "href": "drought-hazard/spei-2.0/global-drought-spei-2.0-return-period-100-years.tif",
+          "mtime": 1795178947.921235
+        },
+        "spei-2.0/global-drought-spei-2.0-return-period-1000-years.tif": {
+          "sha256": "1632778979442dadff3c4fa51017dbe77ed0b1d37daeec49f02c9c426e2f649c",
+          "size_bytes": 139794687,
+          "href": "drought-hazard/spei-2.0/global-drought-spei-2.0-return-period-1000-years.tif",
+          "mtime": 1795178948.3402445
+        },
+        "spei-2.0/global-drought-spei-2.0-return-period-25-years.tif": {
+          "sha256": "e52eb1c7c0da00ee80e38d439ad46d25e51ffd69f5f98637f2946fd363eff69d",
+          "size_bytes": 185843847,
+          "href": "drought-hazard/spei-2.0/global-drought-spei-2.0-return-period-25-years.tif",
+          "mtime": 1795178947.3542225
+        },
+        "spei-2.0/global-drought-spei-2.0-return-period-250-years.tif": {
+          "sha256": "745975543bc8e7edaae2ebae8b2d1f98ae46a3fdaaaff8b86b1452a837624c35",
+          "size_bytes": 154184020,
+          "href": "drought-hazard/spei-2.0/global-drought-spei-2.0-return-period-250-years.tif",
+          "mtime": 1795178988.3711424
+        },
+        "spei-2.0/global-drought-spei-2.0-return-period-50-years.tif": {
+          "sha256": "808d62f6f8c08f0a0484974637932e27894acd2bf9b2223cb695c04ac0c1fe89",
+          "size_bytes": 169804268,
+          "href": "drought-hazard/spei-2.0/global-drought-spei-2.0-return-period-50-years.tif",
+          "mtime": 1795178988.6751494
+        },
+        "spei-2.0/global-drought-spei-2.0-return-period-500-years.tif": {
+          "sha256": "936478782035439f02f66f1499f437b19edee816939cfc5cdf6553f487a9ca30",
+          "size_bytes": 144857850,
+          "href": "drought-hazard/spei-2.0/global-drought-spei-2.0-return-period-500-years.tif",
+          "source_path": "spei-2.0/global-drought-spei-2.0-return-period-500-years.tif",
+          "mtime": 1795178989.5051682
+        },
+        "spei-2.0/global-drought-spei-2.0-return-period-1000-years.thumb.jpg": {
+          "sha256": "6823f09fceb559e444f07fa03a959bc427bedb2413a5e1a92f127c5bb3e6dfde",
+          "size_bytes": 19789,
+          "href": "drought-hazard/spei-2.0/global-drought-spei-2.0-return-period-1000-years.thumb.jpg",
+          "mtime": 1795179042.984386
+        },
+        "spei-2.0/global-drought-spei-2.0-return-period-25-years.thumb.jpg": {
+          "sha256": "fa74bba8153f7ed43c9bc3125c968262a31d79a9a05c77a1e7ad2b7e25e9fe14",
+          "size_bytes": 24167,
+          "href": "drought-hazard/spei-2.0/global-drought-spei-2.0-return-period-25-years.thumb.jpg",
+          "mtime": 1795179043.020387
+        },
+        "spei-2.0/global-drought-spei-2.0-return-period-250-years.thumb.jpg": {
+          "sha256": "56f5b56d20d8e9538e021849304b9a71f2049ab1ed8455b9caaa0e75a4e51aef",
+          "size_bytes": 20367,
+          "href": "drought-hazard/spei-2.0/global-drought-spei-2.0-return-period-250-years.thumb.jpg",
+          "mtime": 1795179043.0573876
+        },
+        "spei-2.0/global-drought-spei-2.0-return-period-50-years.thumb.jpg": {
+          "sha256": "b308b574f2586165b2aa5fca7213926a2f653a6dfcc2ac3a7f8672d4cecac567",
+          "size_bytes": 23372,
+          "href": "drought-hazard/spei-2.0/global-drought-spei-2.0-return-period-50-years.thumb.jpg",
+          "mtime": 1795179043.0933886
+        },
+        "spei-2.0/global-drought-spei-2.0-return-period-500-years.thumb.jpg": {
+          "sha256": "5aae9770d334ffbb1b805876501e370f5c11b2472aaf34fc0f4ca706a9f0f328",
+          "size_bytes": 19984,
+          "href": "drought-hazard/spei-2.0/global-drought-spei-2.0-return-period-500-years.thumb.jpg",
+          "mtime": 1795179043.1293893
+        },
+        "spei-2.5/global-drought-spei-2.5-return-period-100-years.thumb.jpg": {
+          "sha256": "bd2e7cf5218ef90ece404ecd7b0915c7536014c66d85d49a9ec8aa021003fb5b",
+          "size_bytes": 18004,
+          "href": "drought-hazard/spei-2.5/global-drought-spei-2.5-return-period-100-years.thumb.jpg",
+          "mtime": 1795179043.1641426
+        },
+        "spei-2.5/global-drought-spei-2.5-return-period-100-years.tif": {
+          "sha256": "565160754ce1c2ec73ffabb228eadf5c814885f011b4471af589d02f97bd59ff",
+          "size_bytes": 43426267,
+          "href": "drought-hazard/spei-2.5/global-drought-spei-2.5-return-period-100-years.tif",
+          "mtime": 1795178981.0369775
+        },
+        "spei-2.5/global-drought-spei-2.5-return-period-1000-years.tif": {
+          "sha256": "f00c047cb76b9783355bbbadaf0f4eba4ffb382a1cfe9b603954bda2d4dff7ee",
+          "size_bytes": 40985223,
+          "href": "drought-hazard/spei-2.5/global-drought-spei-2.5-return-period-1000-years.tif",
+          "mtime": 1795178981.2579825
+        },
+        "spei-2.5/global-drought-spei-2.5-return-period-25-years.tif": {
+          "sha256": "1c6a18f03a23475fb3cc055e42f5aea28fa883a7240692cf9e4156b2262448fa",
+          "size_bytes": 38542682,
+          "href": "drought-hazard/spei-2.5/global-drought-spei-2.5-return-period-25-years.tif",
+          "mtime": 1795178980.2439597
+        },
+        "spei-2.5/global-drought-spei-2.5-return-period-250-years.tif": {
+          "sha256": "6c22b9895e695a5fa4a9d49dd27f25feb5e8891c3685fa9928857ed36709c30c",
+          "size_bytes": 41478327,
+          "href": "drought-hazard/spei-2.5/global-drought-spei-2.5-return-period-250-years.tif",
+          "mtime": 1795178982.617013
+        },
+        "spei-2.5/global-drought-spei-2.5-return-period-50-years.tif": {
+          "sha256": "2c102335a0cfb63050cfbef5dbdbafe5f8d7b39a5ff9a5a6f3d31aedea8dcdd7",
+          "size_bytes": 44279491,
+          "href": "drought-hazard/spei-2.5/global-drought-spei-2.5-return-period-50-years.tif",
+          "mtime": 1795178982.671014
+        },
+        "spei-2.5/global-drought-spei-2.5-return-period-500-years.tif": {
+          "sha256": "a4869561e5182e95f904274d9111f60b670334eb6d0b25c1e53ff357e3cd9182",
+          "size_bytes": 40289885,
+          "href": "drought-hazard/spei-2.5/global-drought-spei-2.5-return-period-500-years.tif",
+          "source_path": "spei-2.5/global-drought-spei-2.5-return-period-500-years.tif",
+          "mtime": 1795178982.6510136
+        },
+        "spei-2.5/global-drought-spei-2.5-return-period-1000-years.thumb.jpg": {
+          "sha256": "7e09c523dba55b9d2702c18329e5efe345f37cd5d1eabd96b6c71aa65e468ceb",
+          "size_bytes": 11872,
+          "href": "drought-hazard/spei-2.5/global-drought-spei-2.5-return-period-1000-years.thumb.jpg",
+          "mtime": 1795179043.3672612
+        },
+        "spei-2.5/global-drought-spei-2.5-return-period-25-years.thumb.jpg": {
+          "sha256": "4bd5fbab9c85e2a3f5bfd58cf60370a5b107e365b964736a2700e2cde80e4ec9",
+          "size_bytes": 9151,
+          "href": "drought-hazard/spei-2.5/global-drought-spei-2.5-return-period-25-years.thumb.jpg",
+          "mtime": 1795179043.4013956
+        },
+        "spei-2.5/global-drought-spei-2.5-return-period-250-years.thumb.jpg": {
+          "sha256": "a72fbdf95d293af57af2cadaf02c6ecb066281a22d635a8b1cc67e379c293243",
+          "size_bytes": 15144,
+          "href": "drought-hazard/spei-2.5/global-drought-spei-2.5-return-period-250-years.thumb.jpg",
+          "mtime": 1795179043.4371045
+        },
+        "spei-2.5/global-drought-spei-2.5-return-period-50-years.thumb.jpg": {
+          "sha256": "04720bf0fce42c9411db33e6e0722ede1498e0e64246de67a0f2ebfd7c409fdf",
+          "size_bytes": 15892,
+          "href": "drought-hazard/spei-2.5/global-drought-spei-2.5-return-period-50-years.thumb.jpg",
+          "mtime": 1795179043.472397
+        },
+        "spei-2.5/global-drought-spei-2.5-return-period-500-years.thumb.jpg": {
+          "sha256": "15e35cdc45bd553fb660ad0a5d40facada8e16eea394f79137a982d68ee5cb13",
+          "size_bytes": 13155,
+          "href": "drought-hazard/spei-2.5/global-drought-spei-2.5-return-period-500-years.thumb.jpg",
+          "mtime": 1795179043.5083978
+        },
+        "spei-3.0/global-drought-spei-3.0-return-period-100-years.thumb.jpg": {
+          "sha256": "4178312ba82a544d0c67a010dba16ae491c2434575004f899ec279537683bf5d",
+          "size_bytes": 5273,
+          "href": "drought-hazard/spei-3.0/global-drought-spei-3.0-return-period-100-years.thumb.jpg",
+          "mtime": 1795179043.5433986
+        },
+        "spei-3.0/global-drought-spei-3.0-return-period-100-years.tif": {
+          "sha256": "3916494d765bab9af7a7658460370f3a0ca7b9aa0940a0954c9fc5ed736118b0",
+          "size_bytes": 25502614,
+          "href": "drought-hazard/spei-3.0/global-drought-spei-3.0-return-period-100-years.tif",
+          "mtime": 1795178980.5849674
+        },
+        "spei-3.0/global-drought-spei-3.0-return-period-1000-years.tif": {
+          "sha256": "a3b25216f739bb7bc03b95105c243da37be920424390dc9d491f26d7420421c5",
+          "size_bytes": 25347615,
+          "href": "drought-hazard/spei-3.0/global-drought-spei-3.0-return-period-1000-years.tif",
+          "mtime": 1795178980.753971
+        },
+        "spei-3.0/global-drought-spei-3.0-return-period-25-years.tif": {
+          "sha256": "3f1d3f69d6806f28aedf6cdfaca3de491e781512ed19b1c75b44d0390d6743cb",
+          "size_bytes": 25045710,
+          "href": "drought-hazard/spei-3.0/global-drought-spei-3.0-return-period-25-years.tif",
+          "mtime": 1795178980.5969677
+        },
+        "spei-3.0/global-drought-spei-3.0-return-period-250-years.tif": {
+          "sha256": "ca5c99a27b6658355350db651785294a7a641c50312f624caab0663861106e96",
+          "size_bytes": 25380280,
+          "href": "drought-hazard/spei-3.0/global-drought-spei-3.0-return-period-250-years.tif",
+          "mtime": 1795178981.002977
+        },
+        "spei-3.0/global-drought-spei-3.0-return-period-50-years.tif": {
+          "sha256": "6dbca17d920838a5156b29ff4df3bdc19425942c19159e367266dd09a0f3cc04",
+          "size_bytes": 25511856,
+          "href": "drought-hazard/spei-3.0/global-drought-spei-3.0-return-period-50-years.tif",
+          "mtime": 1795178981.0069768
+        },
+        "spei-3.0/global-drought-spei-3.0-return-period-500-years.tif": {
+          "sha256": "325e2a6e8f8d239a6c6171cc883805af681ab1b2a1e24f923ac2bca7ce1dad04",
+          "size_bytes": 25284279,
+          "href": "drought-hazard/spei-3.0/global-drought-spei-3.0-return-period-500-years.tif",
+          "source_path": "spei-3.0/global-drought-spei-3.0-return-period-500-years.tif",
+          "mtime": 1795178980.9149747
+        },
+        "spei-3.0/global-drought-spei-3.0-return-period-1000-years.thumb.jpg": {
+          "sha256": "41a48572d1be24e1d4b42a3da61e435a48f735995586668dc8d07d49ea59a27a",
+          "size_bytes": 3447,
+          "href": "drought-hazard/spei-3.0/global-drought-spei-3.0-return-period-1000-years.thumb.jpg",
+          "mtime": 1795179043.6803951
+        },
+        "spei-3.0/global-drought-spei-3.0-return-period-25-years.thumb.jpg": {
+          "sha256": "46de2f5b55d90f19a71ef3058a1ef8fc546d4490cba4c755bcad7429c1d85e42",
+          "size_bytes": 2547,
+          "href": "drought-hazard/spei-3.0/global-drought-spei-3.0-return-period-25-years.thumb.jpg",
+          "mtime": 1795179043.7138946
+        },
+        "spei-3.0/global-drought-spei-3.0-return-period-250-years.thumb.jpg": {
+          "sha256": "a94622910de1ed21621d4e0617f4486c38b1f3f8732f0df49810db8c6ca31318",
+          "size_bytes": 4431,
+          "href": "drought-hazard/spei-3.0/global-drought-spei-3.0-return-period-250-years.thumb.jpg",
+          "mtime": 1795179043.7484033
+        },
+        "spei-3.0/global-drought-spei-3.0-return-period-50-years.thumb.jpg": {
+          "sha256": "493214e8baba25011fa651d8995de95b3a8260694406ce42b17718c8f688b70e",
+          "size_bytes": 4690,
+          "href": "drought-hazard/spei-3.0/global-drought-spei-3.0-return-period-50-years.thumb.jpg",
+          "mtime": 1795179043.7835076
+        },
+        "spei-3.0/global-drought-spei-3.0-return-period-500-years.thumb.jpg": {
+          "sha256": "5ef023a13436833949c0faac8f0c60cf6d5de6d0cf575bbdf7055de4cb6df489",
+          "size_bytes": 3868,
+          "href": "drought-hazard/spei-3.0/global-drought-spei-3.0-return-period-500-years.thumb.jpg",
+          "mtime": 1795179043.817975
+        },
+        "items.parquet": {
+          "sha256": "67164017a69d01c8ecf9e8b2437478a9ba1588b5e5626bc2198cdbc50def0657",
+          "size_bytes": 102362,
+          "href": "drought-hazard/items.parquet",
+          "mtime": 1795179152.019851,
+          "source_fingerprint": "2c77b45a58d4d13ccfd81228cc78c3904b6c7937f81264dab799be08de997e66"
+        }
+      },
+      "changes": [
+        "items.parquet"
+      ],
+      "message": "Generated items.parquet for STAC GeoParquet queries"
+    },
+    {
+      "version": "1.0.2",
+      "created": "2026-11-20T12:53:21.320116Z",
+      "breaking": false,
+      "assets": {
+        "spei-1.0/global-drought-spei-1.0-return-period-100-years.thumb.jpg": {
+          "sha256": "7334503970a9d55486f313e6217f927d2bdf9bc57e5f8fd0d6ad4b0c7a66d0c5",
+          "size_bytes": 22632,
+          "href": "drought-hazard/spei-1.0/global-drought-spei-1.0-return-period-100-years.thumb.jpg",
+          "mtime": 1795179040.3443263
+        },
+        "spei-1.0/global-drought-spei-1.0-return-period-100-years.tif": {
+          "sha256": "ceef64dfa3002379e084540372a1bd8a5ad1cbf0c510f84a1ccbb6910c5c9cb6",
+          "size_bytes": 185354661,
+          "href": "drought-hazard/spei-1.0/global-drought-spei-1.0-return-period-100-years.tif",
+          "mtime": 1795178949.1902637
+        },
+        "spei-1.0/global-drought-spei-1.0-return-period-1000-years.tif": {
+          "sha256": "843b9562bdad7fd49e69a2a98ce844aa9108e349b3e9474212948dcce0a27a2c",
+          "size_bytes": 185007308,
+          "href": "drought-hazard/spei-1.0/global-drought-spei-1.0-return-period-1000-years.tif",
+          "mtime": 1795178949.3622675
+        },
+        "spei-1.0/global-drought-spei-1.0-return-period-25-years.tif": {
+          "sha256": "53f3e4ff55de82b1a2092e3ca9034c415d104e66a01f7ddff8baf4b29e31b50b",
+          "size_bytes": 187989235,
+          "href": "drought-hazard/spei-1.0/global-drought-spei-1.0-return-period-25-years.tif",
+          "mtime": 1795178949.1072617
+        },
+        "spei-1.0/global-drought-spei-1.0-return-period-250-years.tif": {
+          "sha256": "ad1db8ca34d03c21161ad51771aa8f581593b944d2d4bf47504313bf3f45af1c",
+          "size_bytes": 183689083,
+          "href": "drought-hazard/spei-1.0/global-drought-spei-1.0-return-period-250-years.tif",
+          "mtime": 1795178949.3732677
+        },
+        "spei-1.0/global-drought-spei-1.0-return-period-50-years.tif": {
+          "sha256": "64fce0b1b4852edfb65e958c832f80ac89ef9426eaa780d6dbb19ae3c75b756f",
+          "size_bytes": 186794694,
+          "href": "drought-hazard/spei-1.0/global-drought-spei-1.0-return-period-50-years.tif",
+          "mtime": 1795178949.0152597
+        },
+        "spei-1.0/global-drought-spei-1.0-return-period-500-years.tif": {
+          "sha256": "384d0ba44a25d83095b246ebf2d6954a55b72e7cc06c1ff06e5ea2a48dd28a37",
+          "size_bytes": 184139261,
+          "href": "drought-hazard/spei-1.0/global-drought-spei-1.0-return-period-500-years.tif",
+          "source_path": "spei-1.0/global-drought-spei-1.0-return-period-500-years.tif",
+          "mtime": 1795178949.3702676
+        },
+        "spei-1.0/global-drought-spei-1.0-return-period-1000-years.thumb.jpg": {
+          "sha256": "1fd70a70275b877bb5427a82f1538428256e67252880e8531c33e23c1be21933",
+          "size_bytes": 23021,
+          "href": "drought-hazard/spei-1.0/global-drought-spei-1.0-return-period-1000-years.thumb.jpg",
+          "mtime": 1795179041.1291647
+        },
+        "spei-1.0/global-drought-spei-1.0-return-period-25-years.thumb.jpg": {
+          "sha256": "a253b9d9f4e8704b5109ad9e9306ea342c28b220ebe11efdcd434854d5836513",
+          "size_bytes": 22068,
+          "href": "drought-hazard/spei-1.0/global-drought-spei-1.0-return-period-25-years.thumb.jpg",
+          "mtime": 1795179041.1653447
+        },
+        "spei-1.0/global-drought-spei-1.0-return-period-250-years.thumb.jpg": {
+          "sha256": "5886c92de03b208aca8cb2e3000a147f15f70fb362f6932fe5541b5be75fa80d",
+          "size_bytes": 22860,
+          "href": "drought-hazard/spei-1.0/global-drought-spei-1.0-return-period-250-years.thumb.jpg",
+          "mtime": 1795179041.2013457
+        },
+        "spei-1.0/global-drought-spei-1.0-return-period-50-years.thumb.jpg": {
+          "sha256": "6bebf649c1ef8f7dedae7a352a774769fb08420a1ba59983e151023147554a12",
+          "size_bytes": 22396,
+          "href": "drought-hazard/spei-1.0/global-drought-spei-1.0-return-period-50-years.thumb.jpg",
+          "mtime": 1795179041.2373464
+        },
+        "spei-1.0/global-drought-spei-1.0-return-period-500-years.thumb.jpg": {
+          "sha256": "aea562e20338aa2c99dde97e43487ce0138e60e7674bd9f4ba084740781c2d2c",
+          "size_bytes": 22945,
+          "href": "drought-hazard/spei-1.0/global-drought-spei-1.0-return-period-500-years.thumb.jpg",
+          "mtime": 1795179041.2733471
+        },
+        "spei-1.5/global-drought-spei-1.5-return-period-100-years.thumb.jpg": {
+          "sha256": "1fba95d2a4016acb211b92a4ddb7f5f82c6796a21d459f7b1a011116388deb8b",
+          "size_bytes": 23988,
+          "href": "drought-hazard/spei-1.5/global-drought-spei-1.5-return-period-100-years.thumb.jpg",
+          "mtime": 1795179041.3101513
+        },
+        "spei-1.5/global-drought-spei-1.5-return-period-100-years.tif": {
+          "sha256": "53e28181ca9f3f06c4d986765b6893f1caa185b7699f1325e496c09d1b59babb",
+          "size_bytes": 199733167,
+          "href": "drought-hazard/spei-1.5/global-drought-spei-1.5-return-period-100-years.tif",
+          "mtime": 1795178949.431269
+        },
+        "spei-1.5/global-drought-spei-1.5-return-period-1000-years.tif": {
+          "sha256": "64149dd929f0c5515179969a7e3a0b35a74861729736e4721902860f06b4914e",
+          "size_bytes": 179605821,
+          "href": "drought-hazard/spei-1.5/global-drought-spei-1.5-return-period-1000-years.tif",
+          "mtime": 1795178949.8652787
+        },
+        "spei-1.5/global-drought-spei-1.5-return-period-25-years.tif": {
+          "sha256": "79a3fb74dc9a7b16f0e389de64d8bdbd85181a1345c6b6ca04cb4a81eeb4af33",
+          "size_bytes": 210548141,
+          "href": "drought-hazard/spei-1.5/global-drought-spei-1.5-return-period-25-years.tif",
+          "mtime": 1795178949.8162777
+        },
+        "spei-1.5/global-drought-spei-1.5-return-period-250-years.tif": {
+          "sha256": "f376f4bf75b715f36d1ad573329c6d5652babf5ed082f78ffc2a0f1eba5962aa",
+          "size_bytes": 189310729,
+          "href": "drought-hazard/spei-1.5/global-drought-spei-1.5-return-period-250-years.tif",
+          "mtime": 1795178949.738276
+        },
+        "spei-1.5/global-drought-spei-1.5-return-period-50-years.tif": {
+          "sha256": "318b0c57e5178c8ec461d69bbffbc541c8711d1d3ab335ed5220af87b2912776",
+          "size_bytes": 207198891,
+          "href": "drought-hazard/spei-1.5/global-drought-spei-1.5-return-period-50-years.tif",
+          "mtime": 1795178949.5902727
+        },
+        "spei-1.5/global-drought-spei-1.5-return-period-500-years.tif": {
+          "sha256": "e7cf5e5ad2afa71c23b3fc9c964e25dbdc226a061063f321a31a0cce8deae27b",
+          "size_bytes": 183554656,
+          "href": "drought-hazard/spei-1.5/global-drought-spei-1.5-return-period-500-years.tif",
+          "source_path": "spei-1.5/global-drought-spei-1.5-return-period-500-years.tif",
+          "mtime": 1795178949.830278
+        },
+        "spei-1.5/global-drought-spei-1.5-return-period-1000-years.thumb.jpg": {
+          "sha256": "b54712c460026ef357de5fdd9d3c3a6d944ecb03b2afe13be997c6ecf8ca45b6",
+          "size_bytes": 23794,
+          "href": "drought-hazard/spei-1.5/global-drought-spei-1.5-return-period-1000-years.thumb.jpg",
+          "mtime": 1795179042.1293666
+        },
+        "spei-1.5/global-drought-spei-1.5-return-period-25-years.thumb.jpg": {
+          "sha256": "f7e1e0429d08d75601a97f0669d65db15be0e4723c8a09d1d68365b33614afc2",
+          "size_bytes": 22702,
+          "href": "drought-hazard/spei-1.5/global-drought-spei-1.5-return-period-25-years.thumb.jpg",
+          "mtime": 1795179042.1653674
+        },
+        "spei-1.5/global-drought-spei-1.5-return-period-250-years.thumb.jpg": {
+          "sha256": "6fd5ca76087577645aa23eada56e970009ff9aabcf6cfdcf07f7f850e38dce0a",
+          "size_bytes": 23942,
+          "href": "drought-hazard/spei-1.5/global-drought-spei-1.5-return-period-250-years.thumb.jpg",
+          "mtime": 1795179042.20114
+        },
+        "spei-1.5/global-drought-spei-1.5-return-period-50-years.thumb.jpg": {
+          "sha256": "e77ece21ef100e820969f26a11c737aaf11830aa5b8f1f1332ce2c4098e5b915",
+          "size_bytes": 23679,
+          "href": "drought-hazard/spei-1.5/global-drought-spei-1.5-return-period-50-years.thumb.jpg",
+          "mtime": 1795179042.237369
+        },
+        "spei-1.5/global-drought-spei-1.5-return-period-500-years.thumb.jpg": {
+          "sha256": "d25cef134f4e3f8680b60e426478a712d67fa68beb9e4c2f00fca7e3400f3be9",
+          "size_bytes": 23870,
+          "href": "drought-hazard/spei-1.5/global-drought-spei-1.5-return-period-500-years.thumb.jpg",
+          "mtime": 1795179042.2731495
+        },
+        "spei-2.0/global-drought-spei-2.0-return-period-100-years.thumb.jpg": {
+          "sha256": "a3eee28c84e661214e71a2a4ac54b04a4ed8a20f1abc58871d83262cdf32f636",
+          "size_bytes": 21820,
+          "href": "drought-hazard/spei-2.0/global-drought-spei-2.0-return-period-100-years.thumb.jpg",
+          "mtime": 1795179042.3083706
+        },
+        "spei-2.0/global-drought-spei-2.0-return-period-100-years.tif": {
+          "sha256": "f82e3c6331618f08ff6d108ffd68eecd78aa30e3c31b85277a4e05c5e99424f5",
+          "size_bytes": 162593950,
+          "href": "drought-hazard/spei-2.0/global-drought-spei-2.0-return-period-100-years.tif",
+          "mtime": 1795178947.921235
+        },
+        "spei-2.0/global-drought-spei-2.0-return-period-1000-years.tif": {
+          "sha256": "1632778979442dadff3c4fa51017dbe77ed0b1d37daeec49f02c9c426e2f649c",
+          "size_bytes": 139794687,
+          "href": "drought-hazard/spei-2.0/global-drought-spei-2.0-return-period-1000-years.tif",
+          "mtime": 1795178948.3402445
+        },
+        "spei-2.0/global-drought-spei-2.0-return-period-25-years.tif": {
+          "sha256": "e52eb1c7c0da00ee80e38d439ad46d25e51ffd69f5f98637f2946fd363eff69d",
+          "size_bytes": 185843847,
+          "href": "drought-hazard/spei-2.0/global-drought-spei-2.0-return-period-25-years.tif",
+          "mtime": 1795178947.3542225
+        },
+        "spei-2.0/global-drought-spei-2.0-return-period-250-years.tif": {
+          "sha256": "745975543bc8e7edaae2ebae8b2d1f98ae46a3fdaaaff8b86b1452a837624c35",
+          "size_bytes": 154184020,
+          "href": "drought-hazard/spei-2.0/global-drought-spei-2.0-return-period-250-years.tif",
+          "mtime": 1795178988.3711424
+        },
+        "spei-2.0/global-drought-spei-2.0-return-period-50-years.tif": {
+          "sha256": "808d62f6f8c08f0a0484974637932e27894acd2bf9b2223cb695c04ac0c1fe89",
+          "size_bytes": 169804268,
+          "href": "drought-hazard/spei-2.0/global-drought-spei-2.0-return-period-50-years.tif",
+          "mtime": 1795178988.6751494
+        },
+        "spei-2.0/global-drought-spei-2.0-return-period-500-years.tif": {
+          "sha256": "936478782035439f02f66f1499f437b19edee816939cfc5cdf6553f487a9ca30",
+          "size_bytes": 144857850,
+          "href": "drought-hazard/spei-2.0/global-drought-spei-2.0-return-period-500-years.tif",
+          "source_path": "spei-2.0/global-drought-spei-2.0-return-period-500-years.tif",
+          "mtime": 1795178989.5051682
+        },
+        "spei-2.0/global-drought-spei-2.0-return-period-1000-years.thumb.jpg": {
+          "sha256": "6823f09fceb559e444f07fa03a959bc427bedb2413a5e1a92f127c5bb3e6dfde",
+          "size_bytes": 19789,
+          "href": "drought-hazard/spei-2.0/global-drought-spei-2.0-return-period-1000-years.thumb.jpg",
+          "mtime": 1795179042.984386
+        },
+        "spei-2.0/global-drought-spei-2.0-return-period-25-years.thumb.jpg": {
+          "sha256": "fa74bba8153f7ed43c9bc3125c968262a31d79a9a05c77a1e7ad2b7e25e9fe14",
+          "size_bytes": 24167,
+          "href": "drought-hazard/spei-2.0/global-drought-spei-2.0-return-period-25-years.thumb.jpg",
+          "mtime": 1795179043.020387
+        },
+        "spei-2.0/global-drought-spei-2.0-return-period-250-years.thumb.jpg": {
+          "sha256": "56f5b56d20d8e9538e021849304b9a71f2049ab1ed8455b9caaa0e75a4e51aef",
+          "size_bytes": 20367,
+          "href": "drought-hazard/spei-2.0/global-drought-spei-2.0-return-period-250-years.thumb.jpg",
+          "mtime": 1795179043.0573876
+        },
+        "spei-2.0/global-drought-spei-2.0-return-period-50-years.thumb.jpg": {
+          "sha256": "b308b574f2586165b2aa5fca7213926a2f653a6dfcc2ac3a7f8672d4cecac567",
+          "size_bytes": 23372,
+          "href": "drought-hazard/spei-2.0/global-drought-spei-2.0-return-period-50-years.thumb.jpg",
+          "mtime": 1795179043.0933886
+        },
+        "spei-2.0/global-drought-spei-2.0-return-period-500-years.thumb.jpg": {
+          "sha256": "5aae9770d334ffbb1b805876501e370f5c11b2472aaf34fc0f4ca706a9f0f328",
+          "size_bytes": 19984,
+          "href": "drought-hazard/spei-2.0/global-drought-spei-2.0-return-period-500-years.thumb.jpg",
+          "mtime": 1795179043.1293893
+        },
+        "spei-2.5/global-drought-spei-2.5-return-period-100-years.thumb.jpg": {
+          "sha256": "bd2e7cf5218ef90ece404ecd7b0915c7536014c66d85d49a9ec8aa021003fb5b",
+          "size_bytes": 18004,
+          "href": "drought-hazard/spei-2.5/global-drought-spei-2.5-return-period-100-years.thumb.jpg",
+          "mtime": 1795179043.1641426
+        },
+        "spei-2.5/global-drought-spei-2.5-return-period-100-years.tif": {
+          "sha256": "565160754ce1c2ec73ffabb228eadf5c814885f011b4471af589d02f97bd59ff",
+          "size_bytes": 43426267,
+          "href": "drought-hazard/spei-2.5/global-drought-spei-2.5-return-period-100-years.tif",
+          "mtime": 1795178981.0369775
+        },
+        "spei-2.5/global-drought-spei-2.5-return-period-1000-years.tif": {
+          "sha256": "f00c047cb76b9783355bbbadaf0f4eba4ffb382a1cfe9b603954bda2d4dff7ee",
+          "size_bytes": 40985223,
+          "href": "drought-hazard/spei-2.5/global-drought-spei-2.5-return-period-1000-years.tif",
+          "mtime": 1795178981.2579825
+        },
+        "spei-2.5/global-drought-spei-2.5-return-period-25-years.tif": {
+          "sha256": "1c6a18f03a23475fb3cc055e42f5aea28fa883a7240692cf9e4156b2262448fa",
+          "size_bytes": 38542682,
+          "href": "drought-hazard/spei-2.5/global-drought-spei-2.5-return-period-25-years.tif",
+          "mtime": 1795178980.2439597
+        },
+        "spei-2.5/global-drought-spei-2.5-return-period-250-years.tif": {
+          "sha256": "6c22b9895e695a5fa4a9d49dd27f25feb5e8891c3685fa9928857ed36709c30c",
+          "size_bytes": 41478327,
+          "href": "drought-hazard/spei-2.5/global-drought-spei-2.5-return-period-250-years.tif",
+          "mtime": 1795178982.617013
+        },
+        "spei-2.5/global-drought-spei-2.5-return-period-50-years.tif": {
+          "sha256": "2c102335a0cfb63050cfbef5dbdbafe5f8d7b39a5ff9a5a6f3d31aedea8dcdd7",
+          "size_bytes": 44279491,
+          "href": "drought-hazard/spei-2.5/global-drought-spei-2.5-return-period-50-years.tif",
+          "mtime": 1795178982.671014
+        },
+        "spei-2.5/global-drought-spei-2.5-return-period-500-years.tif": {
+          "sha256": "a4869561e5182e95f904274d9111f60b670334eb6d0b25c1e53ff357e3cd9182",
+          "size_bytes": 40289885,
+          "href": "drought-hazard/spei-2.5/global-drought-spei-2.5-return-period-500-years.tif",
+          "source_path": "spei-2.5/global-drought-spei-2.5-return-period-500-years.tif",
+          "mtime": 1795178982.6510136
+        },
+        "spei-2.5/global-drought-spei-2.5-return-period-1000-years.thumb.jpg": {
+          "sha256": "7e09c523dba55b9d2702c18329e5efe345f37cd5d1eabd96b6c71aa65e468ceb",
+          "size_bytes": 11872,
+          "href": "drought-hazard/spei-2.5/global-drought-spei-2.5-return-period-1000-years.thumb.jpg",
+          "mtime": 1795179043.3672612
+        },
+        "spei-2.5/global-drought-spei-2.5-return-period-25-years.thumb.jpg": {
+          "sha256": "4bd5fbab9c85e2a3f5bfd58cf60370a5b107e365b964736a2700e2cde80e4ec9",
+          "size_bytes": 9151,
+          "href": "drought-hazard/spei-2.5/global-drought-spei-2.5-return-period-25-years.thumb.jpg",
+          "mtime": 1795179043.4013956
+        },
+        "spei-2.5/global-drought-spei-2.5-return-period-250-years.thumb.jpg": {
+          "sha256": "a72fbdf95d293af57af2cadaf02c6ecb066281a22d635a8b1cc67e379c293243",
+          "size_bytes": 15144,
+          "href": "drought-hazard/spei-2.5/global-drought-spei-2.5-return-period-250-years.thumb.jpg",
+          "mtime": 1795179043.4371045
+        },
+        "spei-2.5/global-drought-spei-2.5-return-period-50-years.thumb.jpg": {
+          "sha256": "04720bf0fce42c9411db33e6e0722ede1498e0e64246de67a0f2ebfd7c409fdf",
+          "size_bytes": 15892,
+          "href": "drought-hazard/spei-2.5/global-drought-spei-2.5-return-period-50-years.thumb.jpg",
+          "mtime": 1795179043.472397
+        },
+        "spei-2.5/global-drought-spei-2.5-return-period-500-years.thumb.jpg": {
+          "sha256": "15e35cdc45bd553fb660ad0a5d40facada8e16eea394f79137a982d68ee5cb13",
+          "size_bytes": 13155,
+          "href": "drought-hazard/spei-2.5/global-drought-spei-2.5-return-period-500-years.thumb.jpg",
+          "mtime": 1795179043.5083978
+        },
+        "spei-3.0/global-drought-spei-3.0-return-period-100-years.thumb.jpg": {
+          "sha256": "4178312ba82a544d0c67a010dba16ae491c2434575004f899ec279537683bf5d",
+          "size_bytes": 5273,
+          "href": "drought-hazard/spei-3.0/global-drought-spei-3.0-return-period-100-years.thumb.jpg",
+          "mtime": 1795179043.5433986
+        },
+        "spei-3.0/global-drought-spei-3.0-return-period-100-years.tif": {
+          "sha256": "3916494d765bab9af7a7658460370f3a0ca7b9aa0940a0954c9fc5ed736118b0",
+          "size_bytes": 25502614,
+          "href": "drought-hazard/spei-3.0/global-drought-spei-3.0-return-period-100-years.tif",
+          "mtime": 1795178980.5849674
+        },
+        "spei-3.0/global-drought-spei-3.0-return-period-1000-years.tif": {
+          "sha256": "a3b25216f739bb7bc03b95105c243da37be920424390dc9d491f26d7420421c5",
+          "size_bytes": 25347615,
+          "href": "drought-hazard/spei-3.0/global-drought-spei-3.0-return-period-1000-years.tif",
+          "mtime": 1795178980.753971
+        },
+        "spei-3.0/global-drought-spei-3.0-return-period-25-years.tif": {
+          "sha256": "3f1d3f69d6806f28aedf6cdfaca3de491e781512ed19b1c75b44d0390d6743cb",
+          "size_bytes": 25045710,
+          "href": "drought-hazard/spei-3.0/global-drought-spei-3.0-return-period-25-years.tif",
+          "mtime": 1795178980.5969677
+        },
+        "spei-3.0/global-drought-spei-3.0-return-period-250-years.tif": {
+          "sha256": "ca5c99a27b6658355350db651785294a7a641c50312f624caab0663861106e96",
+          "size_bytes": 25380280,
+          "href": "drought-hazard/spei-3.0/global-drought-spei-3.0-return-period-250-years.tif",
+          "mtime": 1795178981.002977
+        },
+        "spei-3.0/global-drought-spei-3.0-return-period-50-years.tif": {
+          "sha256": "6dbca17d920838a5156b29ff4df3bdc19425942c19159e367266dd09a0f3cc04",
+          "size_bytes": 25511856,
+          "href": "drought-hazard/spei-3.0/global-drought-spei-3.0-return-period-50-years.tif",
+          "mtime": 1795178981.0069768
+        },
+        "spei-3.0/global-drought-spei-3.0-return-period-500-years.tif": {
+          "sha256": "325e2a6e8f8d239a6c6171cc883805af681ab1b2a1e24f923ac2bca7ce1dad04",
+          "size_bytes": 25284279,
+          "href": "drought-hazard/spei-3.0/global-drought-spei-3.0-return-period-500-years.tif",
+          "source_path": "spei-3.0/global-drought-spei-3.0-return-period-500-years.tif",
+          "mtime": 1795178980.9149747
+        },
+        "spei-3.0/global-drought-spei-3.0-return-period-1000-years.thumb.jpg": {
+          "sha256": "41a48572d1be24e1d4b42a3da61e435a48f735995586668dc8d07d49ea59a27a",
+          "size_bytes": 3447,
+          "href": "drought-hazard/spei-3.0/global-drought-spei-3.0-return-period-1000-years.thumb.jpg",
+          "mtime": 1795179043.6803951
+        },
+        "spei-3.0/global-drought-spei-3.0-return-period-25-years.thumb.jpg": {
+          "sha256": "46de2f5b55d90f19a71ef3058a1ef8fc546d4490cba4c755bcad7429c1d85e42",
+          "size_bytes": 2547,
+          "href": "drought-hazard/spei-3.0/global-drought-spei-3.0-return-period-25-years.thumb.jpg",
+          "mtime": 1795179043.7138946
+        },
+        "spei-3.0/global-drought-spei-3.0-return-period-250-years.thumb.jpg": {
+          "sha256": "a94622910de1ed21621d4e0617f4486c38b1f3f8732f0df49810db8c6ca31318",
+          "size_bytes": 4431,
+          "href": "drought-hazard/spei-3.0/global-drought-spei-3.0-return-period-250-years.thumb.jpg",
+          "mtime": 1795179043.7484033
+        },
+        "spei-3.0/global-drought-spei-3.0-return-period-50-years.thumb.jpg": {
+          "sha256": "493214e8baba25011fa651d8995de95b3a8260694406ce42b17718c8f688b70e",
+          "size_bytes": 4690,
+          "href": "drought-hazard/spei-3.0/global-drought-spei-3.0-return-period-50-years.thumb.jpg",
+          "mtime": 1795179043.7835076
+        },
+        "spei-3.0/global-drought-spei-3.0-return-period-500-years.thumb.jpg": {
+          "sha256": "5ef023a13436833949c0faac8f0c60cf6d5de6d0cf575bbdf7055de4cb6df489",
+          "size_bytes": 3868,
+          "href": "drought-hazard/spei-3.0/global-drought-spei-3.0-return-period-500-years.thumb.jpg",
+          "mtime": 1795179043.817975
+        },
+        "items.parquet": {
+          "sha256": "0c003991ea2bb7ab3dd2da64ec85227b3d5725a007c0d2811cef433c694df2f2",
+          "size_bytes": 99158,
+          "href": "drought-hazard/items.parquet",
+          "mtime": 1795179201.3109617,
+          "source_fingerprint": "8c1245684168abab0a55e38799e9a4e74f3b7e88230e368b3652345d0f154bc8"
+        }
+      },
+      "changes": [
+        "items.parquet"
+      ],
+      "message": "Generated items.parquet for STAC GeoParquet queries"
+    },
+    {
+      "version": "1.0.3",
+      "created": "2026-11-20T13:10:39.619662Z",
+      "breaking": false,
+      "assets": {
+        "spei-1.0/global-drought-spei-1.0-return-period-100-years.thumb.jpg": {
+          "sha256": "7334503970a9d55486f313e6217f927d2bdf9bc57e5f8fd0d6ad4b0c7a66d0c5",
+          "size_bytes": 22632,
+          "href": "drought-hazard/spei-1.0/global-drought-spei-1.0-return-period-100-years.thumb.jpg",
+          "mtime": 1795179040.3443263
+        },
+        "spei-1.0/global-drought-spei-1.0-return-period-100-years.tif": {
+          "sha256": "ceef64dfa3002379e084540372a1bd8a5ad1cbf0c510f84a1ccbb6910c5c9cb6",
+          "size_bytes": 185354661,
+          "href": "drought-hazard/spei-1.0/global-drought-spei-1.0-return-period-100-years.tif",
+          "mtime": 1795178949.1902637
+        },
+        "spei-1.0/global-drought-spei-1.0-return-period-1000-years.tif": {
+          "sha256": "843b9562bdad7fd49e69a2a98ce844aa9108e349b3e9474212948dcce0a27a2c",
+          "size_bytes": 185007308,
+          "href": "drought-hazard/spei-1.0/global-drought-spei-1.0-return-period-1000-years.tif",
+          "mtime": 1795178949.3622675
+        },
+        "spei-1.0/global-drought-spei-1.0-return-period-25-years.tif": {
+          "sha256": "53f3e4ff55de82b1a2092e3ca9034c415d104e66a01f7ddff8baf4b29e31b50b",
+          "size_bytes": 187989235,
+          "href": "drought-hazard/spei-1.0/global-drought-spei-1.0-return-period-25-years.tif",
+          "mtime": 1795178949.1072617
+        },
+        "spei-1.0/global-drought-spei-1.0-return-period-250-years.tif": {
+          "sha256": "ad1db8ca34d03c21161ad51771aa8f581593b944d2d4bf47504313bf3f45af1c",
+          "size_bytes": 183689083,
+          "href": "drought-hazard/spei-1.0/global-drought-spei-1.0-return-period-250-years.tif",
+          "mtime": 1795178949.3732677
+        },
+        "spei-1.0/global-drought-spei-1.0-return-period-50-years.tif": {
+          "sha256": "64fce0b1b4852edfb65e958c832f80ac89ef9426eaa780d6dbb19ae3c75b756f",
+          "size_bytes": 186794694,
+          "href": "drought-hazard/spei-1.0/global-drought-spei-1.0-return-period-50-years.tif",
+          "mtime": 1795178949.0152597
+        },
+        "spei-1.0/global-drought-spei-1.0-return-period-500-years.tif": {
+          "sha256": "384d0ba44a25d83095b246ebf2d6954a55b72e7cc06c1ff06e5ea2a48dd28a37",
+          "size_bytes": 184139261,
+          "href": "drought-hazard/spei-1.0/global-drought-spei-1.0-return-period-500-years.tif",
+          "source_path": "spei-1.0/global-drought-spei-1.0-return-period-500-years.tif",
+          "mtime": 1795178949.3702676
+        },
+        "spei-1.0/global-drought-spei-1.0-return-period-1000-years.thumb.jpg": {
+          "sha256": "1fd70a70275b877bb5427a82f1538428256e67252880e8531c33e23c1be21933",
+          "size_bytes": 23021,
+          "href": "drought-hazard/spei-1.0/global-drought-spei-1.0-return-period-1000-years.thumb.jpg",
+          "mtime": 1795179041.1291647
+        },
+        "spei-1.0/global-drought-spei-1.0-return-period-25-years.thumb.jpg": {
+          "sha256": "a253b9d9f4e8704b5109ad9e9306ea342c28b220ebe11efdcd434854d5836513",
+          "size_bytes": 22068,
+          "href": "drought-hazard/spei-1.0/global-drought-spei-1.0-return-period-25-years.thumb.jpg",
+          "mtime": 1795179041.1653447
+        },
+        "spei-1.0/global-drought-spei-1.0-return-period-250-years.thumb.jpg": {
+          "sha256": "5886c92de03b208aca8cb2e3000a147f15f70fb362f6932fe5541b5be75fa80d",
+          "size_bytes": 22860,
+          "href": "drought-hazard/spei-1.0/global-drought-spei-1.0-return-period-250-years.thumb.jpg",
+          "mtime": 1795179041.2013457
+        },
+        "spei-1.0/global-drought-spei-1.0-return-period-50-years.thumb.jpg": {
+          "sha256": "6bebf649c1ef8f7dedae7a352a774769fb08420a1ba59983e151023147554a12",
+          "size_bytes": 22396,
+          "href": "drought-hazard/spei-1.0/global-drought-spei-1.0-return-period-50-years.thumb.jpg",
+          "mtime": 1795179041.2373464
+        },
+        "spei-1.0/global-drought-spei-1.0-return-period-500-years.thumb.jpg": {
+          "sha256": "aea562e20338aa2c99dde97e43487ce0138e60e7674bd9f4ba084740781c2d2c",
+          "size_bytes": 22945,
+          "href": "drought-hazard/spei-1.0/global-drought-spei-1.0-return-period-500-years.thumb.jpg",
+          "mtime": 1795179041.2733471
+        },
+        "spei-1.5/global-drought-spei-1.5-return-period-100-years.thumb.jpg": {
+          "sha256": "1fba95d2a4016acb211b92a4ddb7f5f82c6796a21d459f7b1a011116388deb8b",
+          "size_bytes": 23988,
+          "href": "drought-hazard/spei-1.5/global-drought-spei-1.5-return-period-100-years.thumb.jpg",
+          "mtime": 1795179041.3101513
+        },
+        "spei-1.5/global-drought-spei-1.5-return-period-100-years.tif": {
+          "sha256": "53e28181ca9f3f06c4d986765b6893f1caa185b7699f1325e496c09d1b59babb",
+          "size_bytes": 199733167,
+          "href": "drought-hazard/spei-1.5/global-drought-spei-1.5-return-period-100-years.tif",
+          "mtime": 1795178949.431269
+        },
+        "spei-1.5/global-drought-spei-1.5-return-period-1000-years.tif": {
+          "sha256": "64149dd929f0c5515179969a7e3a0b35a74861729736e4721902860f06b4914e",
+          "size_bytes": 179605821,
+          "href": "drought-hazard/spei-1.5/global-drought-spei-1.5-return-period-1000-years.tif",
+          "mtime": 1795178949.8652787
+        },
+        "spei-1.5/global-drought-spei-1.5-return-period-25-years.tif": {
+          "sha256": "79a3fb74dc9a7b16f0e389de64d8bdbd85181a1345c6b6ca04cb4a81eeb4af33",
+          "size_bytes": 210548141,
+          "href": "drought-hazard/spei-1.5/global-drought-spei-1.5-return-period-25-years.tif",
+          "mtime": 1795178949.8162777
+        },
+        "spei-1.5/global-drought-spei-1.5-return-period-250-years.tif": {
+          "sha256": "f376f4bf75b715f36d1ad573329c6d5652babf5ed082f78ffc2a0f1eba5962aa",
+          "size_bytes": 189310729,
+          "href": "drought-hazard/spei-1.5/global-drought-spei-1.5-return-period-250-years.tif",
+          "mtime": 1795178949.738276
+        },
+        "spei-1.5/global-drought-spei-1.5-return-period-50-years.tif": {
+          "sha256": "318b0c57e5178c8ec461d69bbffbc541c8711d1d3ab335ed5220af87b2912776",
+          "size_bytes": 207198891,
+          "href": "drought-hazard/spei-1.5/global-drought-spei-1.5-return-period-50-years.tif",
+          "mtime": 1795178949.5902727
+        },
+        "spei-1.5/global-drought-spei-1.5-return-period-500-years.tif": {
+          "sha256": "e7cf5e5ad2afa71c23b3fc9c964e25dbdc226a061063f321a31a0cce8deae27b",
+          "size_bytes": 183554656,
+          "href": "drought-hazard/spei-1.5/global-drought-spei-1.5-return-period-500-years.tif",
+          "source_path": "spei-1.5/global-drought-spei-1.5-return-period-500-years.tif",
+          "mtime": 1795178949.830278
+        },
+        "spei-1.5/global-drought-spei-1.5-return-period-1000-years.thumb.jpg": {
+          "sha256": "b54712c460026ef357de5fdd9d3c3a6d944ecb03b2afe13be997c6ecf8ca45b6",
+          "size_bytes": 23794,
+          "href": "drought-hazard/spei-1.5/global-drought-spei-1.5-return-period-1000-years.thumb.jpg",
+          "mtime": 1795179042.1293666
+        },
+        "spei-1.5/global-drought-spei-1.5-return-period-25-years.thumb.jpg": {
+          "sha256": "f7e1e0429d08d75601a97f0669d65db15be0e4723c8a09d1d68365b33614afc2",
+          "size_bytes": 22702,
+          "href": "drought-hazard/spei-1.5/global-drought-spei-1.5-return-period-25-years.thumb.jpg",
+          "mtime": 1795179042.1653674
+        },
+        "spei-1.5/global-drought-spei-1.5-return-period-250-years.thumb.jpg": {
+          "sha256": "6fd5ca76087577645aa23eada56e970009ff9aabcf6cfdcf07f7f850e38dce0a",
+          "size_bytes": 23942,
+          "href": "drought-hazard/spei-1.5/global-drought-spei-1.5-return-period-250-years.thumb.jpg",
+          "mtime": 1795179042.20114
+        },
+        "spei-1.5/global-drought-spei-1.5-return-period-50-years.thumb.jpg": {
+          "sha256": "e77ece21ef100e820969f26a11c737aaf11830aa5b8f1f1332ce2c4098e5b915",
+          "size_bytes": 23679,
+          "href": "drought-hazard/spei-1.5/global-drought-spei-1.5-return-period-50-years.thumb.jpg",
+          "mtime": 1795179042.237369
+        },
+        "spei-1.5/global-drought-spei-1.5-return-period-500-years.thumb.jpg": {
+          "sha256": "d25cef134f4e3f8680b60e426478a712d67fa68beb9e4c2f00fca7e3400f3be9",
+          "size_bytes": 23870,
+          "href": "drought-hazard/spei-1.5/global-drought-spei-1.5-return-period-500-years.thumb.jpg",
+          "mtime": 1795179042.2731495
+        },
+        "spei-2.0/global-drought-spei-2.0-return-period-100-years.thumb.jpg": {
+          "sha256": "a3eee28c84e661214e71a2a4ac54b04a4ed8a20f1abc58871d83262cdf32f636",
+          "size_bytes": 21820,
+          "href": "drought-hazard/spei-2.0/global-drought-spei-2.0-return-period-100-years.thumb.jpg",
+          "mtime": 1795179042.3083706
+        },
+        "spei-2.0/global-drought-spei-2.0-return-period-100-years.tif": {
+          "sha256": "f82e3c6331618f08ff6d108ffd68eecd78aa30e3c31b85277a4e05c5e99424f5",
+          "size_bytes": 162593950,
+          "href": "drought-hazard/spei-2.0/global-drought-spei-2.0-return-period-100-years.tif",
+          "mtime": 1795178947.921235
+        },
+        "spei-2.0/global-drought-spei-2.0-return-period-1000-years.tif": {
+          "sha256": "1632778979442dadff3c4fa51017dbe77ed0b1d37daeec49f02c9c426e2f649c",
+          "size_bytes": 139794687,
+          "href": "drought-hazard/spei-2.0/global-drought-spei-2.0-return-period-1000-years.tif",
+          "mtime": 1795178948.3402445
+        },
+        "spei-2.0/global-drought-spei-2.0-return-period-25-years.tif": {
+          "sha256": "e52eb1c7c0da00ee80e38d439ad46d25e51ffd69f5f98637f2946fd363eff69d",
+          "size_bytes": 185843847,
+          "href": "drought-hazard/spei-2.0/global-drought-spei-2.0-return-period-25-years.tif",
+          "mtime": 1795178947.3542225
+        },
+        "spei-2.0/global-drought-spei-2.0-return-period-250-years.tif": {
+          "sha256": "745975543bc8e7edaae2ebae8b2d1f98ae46a3fdaaaff8b86b1452a837624c35",
+          "size_bytes": 154184020,
+          "href": "drought-hazard/spei-2.0/global-drought-spei-2.0-return-period-250-years.tif",
+          "mtime": 1795178988.3711424
+        },
+        "spei-2.0/global-drought-spei-2.0-return-period-50-years.tif": {
+          "sha256": "808d62f6f8c08f0a0484974637932e27894acd2bf9b2223cb695c04ac0c1fe89",
+          "size_bytes": 169804268,
+          "href": "drought-hazard/spei-2.0/global-drought-spei-2.0-return-period-50-years.tif",
+          "mtime": 1795178988.6751494
+        },
+        "spei-2.0/global-drought-spei-2.0-return-period-500-years.tif": {
+          "sha256": "936478782035439f02f66f1499f437b19edee816939cfc5cdf6553f487a9ca30",
+          "size_bytes": 144857850,
+          "href": "drought-hazard/spei-2.0/global-drought-spei-2.0-return-period-500-years.tif",
+          "source_path": "spei-2.0/global-drought-spei-2.0-return-period-500-years.tif",
+          "mtime": 1795178989.5051682
+        },
+        "spei-2.0/global-drought-spei-2.0-return-period-1000-years.thumb.jpg": {
+          "sha256": "6823f09fceb559e444f07fa03a959bc427bedb2413a5e1a92f127c5bb3e6dfde",
+          "size_bytes": 19789,
+          "href": "drought-hazard/spei-2.0/global-drought-spei-2.0-return-period-1000-years.thumb.jpg",
+          "mtime": 1795179042.984386
+        },
+        "spei-2.0/global-drought-spei-2.0-return-period-25-years.thumb.jpg": {
+          "sha256": "fa74bba8153f7ed43c9bc3125c968262a31d79a9a05c77a1e7ad2b7e25e9fe14",
+          "size_bytes": 24167,
+          "href": "drought-hazard/spei-2.0/global-drought-spei-2.0-return-period-25-years.thumb.jpg",
+          "mtime": 1795179043.020387
+        },
+        "spei-2.0/global-drought-spei-2.0-return-period-250-years.thumb.jpg": {
+          "sha256": "56f5b56d20d8e9538e021849304b9a71f2049ab1ed8455b9caaa0e75a4e51aef",
+          "size_bytes": 20367,
+          "href": "drought-hazard/spei-2.0/global-drought-spei-2.0-return-period-250-years.thumb.jpg",
+          "mtime": 1795179043.0573876
+        },
+        "spei-2.0/global-drought-spei-2.0-return-period-50-years.thumb.jpg": {
+          "sha256": "b308b574f2586165b2aa5fca7213926a2f653a6dfcc2ac3a7f8672d4cecac567",
+          "size_bytes": 23372,
+          "href": "drought-hazard/spei-2.0/global-drought-spei-2.0-return-period-50-years.thumb.jpg",
+          "mtime": 1795179043.0933886
+        },
+        "spei-2.0/global-drought-spei-2.0-return-period-500-years.thumb.jpg": {
+          "sha256": "5aae9770d334ffbb1b805876501e370f5c11b2472aaf34fc0f4ca706a9f0f328",
+          "size_bytes": 19984,
+          "href": "drought-hazard/spei-2.0/global-drought-spei-2.0-return-period-500-years.thumb.jpg",
+          "mtime": 1795179043.1293893
+        },
+        "spei-2.5/global-drought-spei-2.5-return-period-100-years.thumb.jpg": {
+          "sha256": "bd2e7cf5218ef90ece404ecd7b0915c7536014c66d85d49a9ec8aa021003fb5b",
+          "size_bytes": 18004,
+          "href": "drought-hazard/spei-2.5/global-drought-spei-2.5-return-period-100-years.thumb.jpg",
+          "mtime": 1795179043.1641426
+        },
+        "spei-2.5/global-drought-spei-2.5-return-period-100-years.tif": {
+          "sha256": "565160754ce1c2ec73ffabb228eadf5c814885f011b4471af589d02f97bd59ff",
+          "size_bytes": 43426267,
+          "href": "drought-hazard/spei-2.5/global-drought-spei-2.5-return-period-100-years.tif",
+          "mtime": 1795178981.0369775
+        },
+        "spei-2.5/global-drought-spei-2.5-return-period-1000-years.tif": {
+          "sha256": "f00c047cb76b9783355bbbadaf0f4eba4ffb382a1cfe9b603954bda2d4dff7ee",
+          "size_bytes": 40985223,
+          "href": "drought-hazard/spei-2.5/global-drought-spei-2.5-return-period-1000-years.tif",
+          "mtime": 1795178981.2579825
+        },
+        "spei-2.5/global-drought-spei-2.5-return-period-25-years.tif": {
+          "sha256": "1c6a18f03a23475fb3cc055e42f5aea28fa883a7240692cf9e4156b2262448fa",
+          "size_bytes": 38542682,
+          "href": "drought-hazard/spei-2.5/global-drought-spei-2.5-return-period-25-years.tif",
+          "mtime": 1795178980.2439597
+        },
+        "spei-2.5/global-drought-spei-2.5-return-period-250-years.tif": {
+          "sha256": "6c22b9895e695a5fa4a9d49dd27f25feb5e8891c3685fa9928857ed36709c30c",
+          "size_bytes": 41478327,
+          "href": "drought-hazard/spei-2.5/global-drought-spei-2.5-return-period-250-years.tif",
+          "mtime": 1795178982.617013
+        },
+        "spei-2.5/global-drought-spei-2.5-return-period-50-years.tif": {
+          "sha256": "2c102335a0cfb63050cfbef5dbdbafe5f8d7b39a5ff9a5a6f3d31aedea8dcdd7",
+          "size_bytes": 44279491,
+          "href": "drought-hazard/spei-2.5/global-drought-spei-2.5-return-period-50-years.tif",
+          "mtime": 1795178982.671014
+        },
+        "spei-2.5/global-drought-spei-2.5-return-period-500-years.tif": {
+          "sha256": "a4869561e5182e95f904274d9111f60b670334eb6d0b25c1e53ff357e3cd9182",
+          "size_bytes": 40289885,
+          "href": "drought-hazard/spei-2.5/global-drought-spei-2.5-return-period-500-years.tif",
+          "source_path": "spei-2.5/global-drought-spei-2.5-return-period-500-years.tif",
+          "mtime": 1795178982.6510136
+        },
+        "spei-2.5/global-drought-spei-2.5-return-period-1000-years.thumb.jpg": {
+          "sha256": "7e09c523dba55b9d2702c18329e5efe345f37cd5d1eabd96b6c71aa65e468ceb",
+          "size_bytes": 11872,
+          "href": "drought-hazard/spei-2.5/global-drought-spei-2.5-return-period-1000-years.thumb.jpg",
+          "mtime": 1795179043.3672612
+        },
+        "spei-2.5/global-drought-spei-2.5-return-period-25-years.thumb.jpg": {
+          "sha256": "4bd5fbab9c85e2a3f5bfd58cf60370a5b107e365b964736a2700e2cde80e4ec9",
+          "size_bytes": 9151,
+          "href": "drought-hazard/spei-2.5/global-drought-spei-2.5-return-period-25-years.thumb.jpg",
+          "mtime": 1795179043.4013956
+        },
+        "spei-2.5/global-drought-spei-2.5-return-period-250-years.thumb.jpg": {
+          "sha256": "a72fbdf95d293af57af2cadaf02c6ecb066281a22d635a8b1cc67e379c293243",
+          "size_bytes": 15144,
+          "href": "drought-hazard/spei-2.5/global-drought-spei-2.5-return-period-250-years.thumb.jpg",
+          "mtime": 1795179043.4371045
+        },
+        "spei-2.5/global-drought-spei-2.5-return-period-50-years.thumb.jpg": {
+          "sha256": "04720bf0fce42c9411db33e6e0722ede1498e0e64246de67a0f2ebfd7c409fdf",
+          "size_bytes": 15892,
+          "href": "drought-hazard/spei-2.5/global-drought-spei-2.5-return-period-50-years.thumb.jpg",
+          "mtime": 1795179043.472397
+        },
+        "spei-2.5/global-drought-spei-2.5-return-period-500-years.thumb.jpg": {
+          "sha256": "15e35cdc45bd553fb660ad0a5d40facada8e16eea394f79137a982d68ee5cb13",
+          "size_bytes": 13155,
+          "href": "drought-hazard/spei-2.5/global-drought-spei-2.5-return-period-500-years.thumb.jpg",
+          "mtime": 1795179043.5083978
+        },
+        "spei-3.0/global-drought-spei-3.0-return-period-100-years.thumb.jpg": {
+          "sha256": "4178312ba82a544d0c67a010dba16ae491c2434575004f899ec279537683bf5d",
+          "size_bytes": 5273,
+          "href": "drought-hazard/spei-3.0/global-drought-spei-3.0-return-period-100-years.thumb.jpg",
+          "mtime": 1795179043.5433986
+        },
+        "spei-3.0/global-drought-spei-3.0-return-period-100-years.tif": {
+          "sha256": "3916494d765bab9af7a7658460370f3a0ca7b9aa0940a0954c9fc5ed736118b0",
+          "size_bytes": 25502614,
+          "href": "drought-hazard/spei-3.0/global-drought-spei-3.0-return-period-100-years.tif",
+          "mtime": 1795178980.5849674
+        },
+        "spei-3.0/global-drought-spei-3.0-return-period-1000-years.tif": {
+          "sha256": "a3b25216f739bb7bc03b95105c243da37be920424390dc9d491f26d7420421c5",
+          "size_bytes": 25347615,
+          "href": "drought-hazard/spei-3.0/global-drought-spei-3.0-return-period-1000-years.tif",
+          "mtime": 1795178980.753971
+        },
+        "spei-3.0/global-drought-spei-3.0-return-period-25-years.tif": {
+          "sha256": "3f1d3f69d6806f28aedf6cdfaca3de491e781512ed19b1c75b44d0390d6743cb",
+          "size_bytes": 25045710,
+          "href": "drought-hazard/spei-3.0/global-drought-spei-3.0-return-period-25-years.tif",
+          "mtime": 1795178980.5969677
+        },
+        "spei-3.0/global-drought-spei-3.0-return-period-250-years.tif": {
+          "sha256": "ca5c99a27b6658355350db651785294a7a641c50312f624caab0663861106e96",
+          "size_bytes": 25380280,
+          "href": "drought-hazard/spei-3.0/global-drought-spei-3.0-return-period-250-years.tif",
+          "mtime": 1795178981.002977
+        },
+        "spei-3.0/global-drought-spei-3.0-return-period-50-years.tif": {
+          "sha256": "6dbca17d920838a5156b29ff4df3bdc19425942c19159e367266dd09a0f3cc04",
+          "size_bytes": 25511856,
+          "href": "drought-hazard/spei-3.0/global-drought-spei-3.0-return-period-50-years.tif",
+          "mtime": 1795178981.0069768
+        },
+        "spei-3.0/global-drought-spei-3.0-return-period-500-years.tif": {
+          "sha256": "325e2a6e8f8d239a6c6171cc883805af681ab1b2a1e24f923ac2bca7ce1dad04",
+          "size_bytes": 25284279,
+          "href": "drought-hazard/spei-3.0/global-drought-spei-3.0-return-period-500-years.tif",
+          "source_path": "spei-3.0/global-drought-spei-3.0-return-period-500-years.tif",
+          "mtime": 1795178980.9149747
+        },
+        "spei-3.0/global-drought-spei-3.0-return-period-1000-years.thumb.jpg": {
+          "sha256": "41a48572d1be24e1d4b42a3da61e435a48f735995586668dc8d07d49ea59a27a",
+          "size_bytes": 3447,
+          "href": "drought-hazard/spei-3.0/global-drought-spei-3.0-return-period-1000-years.thumb.jpg",
+          "mtime": 1795179043.6803951
+        },
+        "spei-3.0/global-drought-spei-3.0-return-period-25-years.thumb.jpg": {
+          "sha256": "46de2f5b55d90f19a71ef3058a1ef8fc546d4490cba4c755bcad7429c1d85e42",
+          "size_bytes": 2547,
+          "href": "drought-hazard/spei-3.0/global-drought-spei-3.0-return-period-25-years.thumb.jpg",
+          "mtime": 1795179043.7138946
+        },
+        "spei-3.0/global-drought-spei-3.0-return-period-250-years.thumb.jpg": {
+          "sha256": "a94622910de1ed21621d4e0617f4486c38b1f3f8732f0df49810db8c6ca31318",
+          "size_bytes": 4431,
+          "href": "drought-hazard/spei-3.0/global-drought-spei-3.0-return-period-250-years.thumb.jpg",
+          "mtime": 1795179043.7484033
+        },
+        "spei-3.0/global-drought-spei-3.0-return-period-50-years.thumb.jpg": {
+          "sha256": "493214e8baba25011fa651d8995de95b3a8260694406ce42b17718c8f688b70e",
+          "size_bytes": 4690,
+          "href": "drought-hazard/spei-3.0/global-drought-spei-3.0-return-period-50-years.thumb.jpg",
+          "mtime": 1795179043.7835076
+        },
+        "spei-3.0/global-drought-spei-3.0-return-period-500-years.thumb.jpg": {
+          "sha256": "5ef023a13436833949c0faac8f0c60cf6d5de6d0cf575bbdf7055de4cb6df489",
+          "size_bytes": 3868,
+          "href": "drought-hazard/spei-3.0/global-drought-spei-3.0-return-period-500-years.thumb.jpg",
+          "mtime": 1795179043.817975
+        },
+        "items.parquet": {
+          "sha256": "ac8ae11e6dd90a29030f8e8a263d73d03baff14a71d8ccc9e1d328a86b78edea",
+          "size_bytes": 104467,
+          "href": "drought-hazard/items.parquet",
+          "mtime": 1795180239.6100068,
+          "source_fingerprint": "6adde097a9a189766216a67dc47d4e1f8af240f390c323d9283a47a3f652f249"
+        }
+      },
+      "changes": [
+        "items.parquet"
+      ],
+      "message": "Generated items.parquet for STAC GeoParquet queries"
+    },
+    {
+      "version": "1.0.4",
+      "created": "2026-11-20T13:14:02.418007Z",
+      "breaking": false,
+      "assets": {
+        "spei-1.0/global-drought-spei-1.0-return-period-100-years.thumb.jpg": {
+          "sha256": "7334503970a9d55486f313e6217f927d2bdf9bc57e5f8fd0d6ad4b0c7a66d0c5",
+          "size_bytes": 22632,
+          "href": "drought-hazard/spei-1.0/global-drought-spei-1.0-return-period-100-years.thumb.jpg",
+          "mtime": 1795179040.3443263
+        },
+        "spei-1.0/global-drought-spei-1.0-return-period-100-years.tif": {
+          "sha256": "ceef64dfa3002379e084540372a1bd8a5ad1cbf0c510f84a1ccbb6910c5c9cb6",
+          "size_bytes": 185354661,
+          "href": "drought-hazard/spei-1.0/global-drought-spei-1.0-return-period-100-years.tif",
+          "mtime": 1795178949.1902637
+        },
+        "spei-1.0/global-drought-spei-1.0-return-period-1000-years.tif": {
+          "sha256": "843b9562bdad7fd49e69a2a98ce844aa9108e349b3e9474212948dcce0a27a2c",
+          "size_bytes": 185007308,
+          "href": "drought-hazard/spei-1.0/global-drought-spei-1.0-return-period-1000-years.tif",
+          "mtime": 1795178949.3622675
+        },
+        "spei-1.0/global-drought-spei-1.0-return-period-25-years.tif": {
+          "sha256": "53f3e4ff55de82b1a2092e3ca9034c415d104e66a01f7ddff8baf4b29e31b50b",
+          "size_bytes": 187989235,
+          "href": "drought-hazard/spei-1.0/global-drought-spei-1.0-return-period-25-years.tif",
+          "mtime": 1795178949.1072617
+        },
+        "spei-1.0/global-drought-spei-1.0-return-period-250-years.tif": {
+          "sha256": "ad1db8ca34d03c21161ad51771aa8f581593b944d2d4bf47504313bf3f45af1c",
+          "size_bytes": 183689083,
+          "href": "drought-hazard/spei-1.0/global-drought-spei-1.0-return-period-250-years.tif",
+          "mtime": 1795178949.3732677
+        },
+        "spei-1.0/global-drought-spei-1.0-return-period-50-years.tif": {
+          "sha256": "64fce0b1b4852edfb65e958c832f80ac89ef9426eaa780d6dbb19ae3c75b756f",
+          "size_bytes": 186794694,
+          "href": "drought-hazard/spei-1.0/global-drought-spei-1.0-return-period-50-years.tif",
+          "mtime": 1795178949.0152597
+        },
+        "spei-1.0/global-drought-spei-1.0-return-period-500-years.tif": {
+          "sha256": "384d0ba44a25d83095b246ebf2d6954a55b72e7cc06c1ff06e5ea2a48dd28a37",
+          "size_bytes": 184139261,
+          "href": "drought-hazard/spei-1.0/global-drought-spei-1.0-return-period-500-years.tif",
+          "source_path": "spei-1.0/global-drought-spei-1.0-return-period-500-years.tif",
+          "mtime": 1795178949.3702676
+        },
+        "spei-1.0/global-drought-spei-1.0-return-period-1000-years.thumb.jpg": {
+          "sha256": "1fd70a70275b877bb5427a82f1538428256e67252880e8531c33e23c1be21933",
+          "size_bytes": 23021,
+          "href": "drought-hazard/spei-1.0/global-drought-spei-1.0-return-period-1000-years.thumb.jpg",
+          "mtime": 1795179041.1291647
+        },
+        "spei-1.0/global-drought-spei-1.0-return-period-25-years.thumb.jpg": {
+          "sha256": "a253b9d9f4e8704b5109ad9e9306ea342c28b220ebe11efdcd434854d5836513",
+          "size_bytes": 22068,
+          "href": "drought-hazard/spei-1.0/global-drought-spei-1.0-return-period-25-years.thumb.jpg",
+          "mtime": 1795179041.1653447
+        },
+        "spei-1.0/global-drought-spei-1.0-return-period-250-years.thumb.jpg": {
+          "sha256": "5886c92de03b208aca8cb2e3000a147f15f70fb362f6932fe5541b5be75fa80d",
+          "size_bytes": 22860,
+          "href": "drought-hazard/spei-1.0/global-drought-spei-1.0-return-period-250-years.thumb.jpg",
+          "mtime": 1795179041.2013457
+        },
+        "spei-1.0/global-drought-spei-1.0-return-period-50-years.thumb.jpg": {
+          "sha256": "6bebf649c1ef8f7dedae7a352a774769fb08420a1ba59983e151023147554a12",
+          "size_bytes": 22396,
+          "href": "drought-hazard/spei-1.0/global-drought-spei-1.0-return-period-50-years.thumb.jpg",
+          "mtime": 1795179041.2373464
+        },
+        "spei-1.0/global-drought-spei-1.0-return-period-500-years.thumb.jpg": {
+          "sha256": "aea562e20338aa2c99dde97e43487ce0138e60e7674bd9f4ba084740781c2d2c",
+          "size_bytes": 22945,
+          "href": "drought-hazard/spei-1.0/global-drought-spei-1.0-return-period-500-years.thumb.jpg",
+          "mtime": 1795179041.2733471
+        },
+        "spei-1.5/global-drought-spei-1.5-return-period-100-years.thumb.jpg": {
+          "sha256": "1fba95d2a4016acb211b92a4ddb7f5f82c6796a21d459f7b1a011116388deb8b",
+          "size_bytes": 23988,
+          "href": "drought-hazard/spei-1.5/global-drought-spei-1.5-return-period-100-years.thumb.jpg",
+          "mtime": 1795179041.3101513
+        },
+        "spei-1.5/global-drought-spei-1.5-return-period-100-years.tif": {
+          "sha256": "53e28181ca9f3f06c4d986765b6893f1caa185b7699f1325e496c09d1b59babb",
+          "size_bytes": 199733167,
+          "href": "drought-hazard/spei-1.5/global-drought-spei-1.5-return-period-100-years.tif",
+          "mtime": 1795178949.431269
+        },
+        "spei-1.5/global-drought-spei-1.5-return-period-1000-years.tif": {
+          "sha256": "64149dd929f0c5515179969a7e3a0b35a74861729736e4721902860f06b4914e",
+          "size_bytes": 179605821,
+          "href": "drought-hazard/spei-1.5/global-drought-spei-1.5-return-period-1000-years.tif",
+          "mtime": 1795178949.8652787
+        },
+        "spei-1.5/global-drought-spei-1.5-return-period-25-years.tif": {
+          "sha256": "79a3fb74dc9a7b16f0e389de64d8bdbd85181a1345c6b6ca04cb4a81eeb4af33",
+          "size_bytes": 210548141,
+          "href": "drought-hazard/spei-1.5/global-drought-spei-1.5-return-period-25-years.tif",
+          "mtime": 1795178949.8162777
+        },
+        "spei-1.5/global-drought-spei-1.5-return-period-250-years.tif": {
+          "sha256": "f376f4bf75b715f36d1ad573329c6d5652babf5ed082f78ffc2a0f1eba5962aa",
+          "size_bytes": 189310729,
+          "href": "drought-hazard/spei-1.5/global-drought-spei-1.5-return-period-250-years.tif",
+          "mtime": 1795178949.738276
+        },
+        "spei-1.5/global-drought-spei-1.5-return-period-50-years.tif": {
+          "sha256": "318b0c57e5178c8ec461d69bbffbc541c8711d1d3ab335ed5220af87b2912776",
+          "size_bytes": 207198891,
+          "href": "drought-hazard/spei-1.5/global-drought-spei-1.5-return-period-50-years.tif",
+          "mtime": 1795178949.5902727
+        },
+        "spei-1.5/global-drought-spei-1.5-return-period-500-years.tif": {
+          "sha256": "e7cf5e5ad2afa71c23b3fc9c964e25dbdc226a061063f321a31a0cce8deae27b",
+          "size_bytes": 183554656,
+          "href": "drought-hazard/spei-1.5/global-drought-spei-1.5-return-period-500-years.tif",
+          "source_path": "spei-1.5/global-drought-spei-1.5-return-period-500-years.tif",
+          "mtime": 1795178949.830278
+        },
+        "spei-1.5/global-drought-spei-1.5-return-period-1000-years.thumb.jpg": {
+          "sha256": "b54712c460026ef357de5fdd9d3c3a6d944ecb03b2afe13be997c6ecf8ca45b6",
+          "size_bytes": 23794,
+          "href": "drought-hazard/spei-1.5/global-drought-spei-1.5-return-period-1000-years.thumb.jpg",
+          "mtime": 1795179042.1293666
+        },
+        "spei-1.5/global-drought-spei-1.5-return-period-25-years.thumb.jpg": {
+          "sha256": "f7e1e0429d08d75601a97f0669d65db15be0e4723c8a09d1d68365b33614afc2",
+          "size_bytes": 22702,
+          "href": "drought-hazard/spei-1.5/global-drought-spei-1.5-return-period-25-years.thumb.jpg",
+          "mtime": 1795179042.1653674
+        },
+        "spei-1.5/global-drought-spei-1.5-return-period-250-years.thumb.jpg": {
+          "sha256": "6fd5ca76087577645aa23eada56e970009ff9aabcf6cfdcf07f7f850e38dce0a",
+          "size_bytes": 23942,
+          "href": "drought-hazard/spei-1.5/global-drought-spei-1.5-return-period-250-years.thumb.jpg",
+          "mtime": 1795179042.20114
+        },
+        "spei-1.5/global-drought-spei-1.5-return-period-50-years.thumb.jpg": {
+          "sha256": "e77ece21ef100e820969f26a11c737aaf11830aa5b8f1f1332ce2c4098e5b915",
+          "size_bytes": 23679,
+          "href": "drought-hazard/spei-1.5/global-drought-spei-1.5-return-period-50-years.thumb.jpg",
+          "mtime": 1795179042.237369
+        },
+        "spei-1.5/global-drought-spei-1.5-return-period-500-years.thumb.jpg": {
+          "sha256": "d25cef134f4e3f8680b60e426478a712d67fa68beb9e4c2f00fca7e3400f3be9",
+          "size_bytes": 23870,
+          "href": "drought-hazard/spei-1.5/global-drought-spei-1.5-return-period-500-years.thumb.jpg",
+          "mtime": 1795179042.2731495
+        },
+        "spei-2.0/global-drought-spei-2.0-return-period-100-years.thumb.jpg": {
+          "sha256": "a3eee28c84e661214e71a2a4ac54b04a4ed8a20f1abc58871d83262cdf32f636",
+          "size_bytes": 21820,
+          "href": "drought-hazard/spei-2.0/global-drought-spei-2.0-return-period-100-years.thumb.jpg",
+          "mtime": 1795179042.3083706
+        },
+        "spei-2.0/global-drought-spei-2.0-return-period-100-years.tif": {
+          "sha256": "f82e3c6331618f08ff6d108ffd68eecd78aa30e3c31b85277a4e05c5e99424f5",
+          "size_bytes": 162593950,
+          "href": "drought-hazard/spei-2.0/global-drought-spei-2.0-return-period-100-years.tif",
+          "mtime": 1795178947.921235
+        },
+        "spei-2.0/global-drought-spei-2.0-return-period-1000-years.tif": {
+          "sha256": "1632778979442dadff3c4fa51017dbe77ed0b1d37daeec49f02c9c426e2f649c",
+          "size_bytes": 139794687,
+          "href": "drought-hazard/spei-2.0/global-drought-spei-2.0-return-period-1000-years.tif",
+          "mtime": 1795178948.3402445
+        },
+        "spei-2.0/global-drought-spei-2.0-return-period-25-years.tif": {
+          "sha256": "e52eb1c7c0da00ee80e38d439ad46d25e51ffd69f5f98637f2946fd363eff69d",
+          "size_bytes": 185843847,
+          "href": "drought-hazard/spei-2.0/global-drought-spei-2.0-return-period-25-years.tif",
+          "mtime": 1795178947.3542225
+        },
+        "spei-2.0/global-drought-spei-2.0-return-period-250-years.tif": {
+          "sha256": "745975543bc8e7edaae2ebae8b2d1f98ae46a3fdaaaff8b86b1452a837624c35",
+          "size_bytes": 154184020,
+          "href": "drought-hazard/spei-2.0/global-drought-spei-2.0-return-period-250-years.tif",
+          "mtime": 1795178988.3711424
+        },
+        "spei-2.0/global-drought-spei-2.0-return-period-50-years.tif": {
+          "sha256": "808d62f6f8c08f0a0484974637932e27894acd2bf9b2223cb695c04ac0c1fe89",
+          "size_bytes": 169804268,
+          "href": "drought-hazard/spei-2.0/global-drought-spei-2.0-return-period-50-years.tif",
+          "mtime": 1795178988.6751494
+        },
+        "spei-2.0/global-drought-spei-2.0-return-period-500-years.tif": {
+          "sha256": "936478782035439f02f66f1499f437b19edee816939cfc5cdf6553f487a9ca30",
+          "size_bytes": 144857850,
+          "href": "drought-hazard/spei-2.0/global-drought-spei-2.0-return-period-500-years.tif",
+          "source_path": "spei-2.0/global-drought-spei-2.0-return-period-500-years.tif",
+          "mtime": 1795178989.5051682
+        },
+        "spei-2.0/global-drought-spei-2.0-return-period-1000-years.thumb.jpg": {
+          "sha256": "6823f09fceb559e444f07fa03a959bc427bedb2413a5e1a92f127c5bb3e6dfde",
+          "size_bytes": 19789,
+          "href": "drought-hazard/spei-2.0/global-drought-spei-2.0-return-period-1000-years.thumb.jpg",
+          "mtime": 1795179042.984386
+        },
+        "spei-2.0/global-drought-spei-2.0-return-period-25-years.thumb.jpg": {
+          "sha256": "fa74bba8153f7ed43c9bc3125c968262a31d79a9a05c77a1e7ad2b7e25e9fe14",
+          "size_bytes": 24167,
+          "href": "drought-hazard/spei-2.0/global-drought-spei-2.0-return-period-25-years.thumb.jpg",
+          "mtime": 1795179043.020387
+        },
+        "spei-2.0/global-drought-spei-2.0-return-period-250-years.thumb.jpg": {
+          "sha256": "56f5b56d20d8e9538e021849304b9a71f2049ab1ed8455b9caaa0e75a4e51aef",
+          "size_bytes": 20367,
+          "href": "drought-hazard/spei-2.0/global-drought-spei-2.0-return-period-250-years.thumb.jpg",
+          "mtime": 1795179043.0573876
+        },
+        "spei-2.0/global-drought-spei-2.0-return-period-50-years.thumb.jpg": {
+          "sha256": "b308b574f2586165b2aa5fca7213926a2f653a6dfcc2ac3a7f8672d4cecac567",
+          "size_bytes": 23372,
+          "href": "drought-hazard/spei-2.0/global-drought-spei-2.0-return-period-50-years.thumb.jpg",
+          "mtime": 1795179043.0933886
+        },
+        "spei-2.0/global-drought-spei-2.0-return-period-500-years.thumb.jpg": {
+          "sha256": "5aae9770d334ffbb1b805876501e370f5c11b2472aaf34fc0f4ca706a9f0f328",
+          "size_bytes": 19984,
+          "href": "drought-hazard/spei-2.0/global-drought-spei-2.0-return-period-500-years.thumb.jpg",
+          "mtime": 1795179043.1293893
+        },
+        "spei-2.5/global-drought-spei-2.5-return-period-100-years.thumb.jpg": {
+          "sha256": "bd2e7cf5218ef90ece404ecd7b0915c7536014c66d85d49a9ec8aa021003fb5b",
+          "size_bytes": 18004,
+          "href": "drought-hazard/spei-2.5/global-drought-spei-2.5-return-period-100-years.thumb.jpg",
+          "mtime": 1795179043.1641426
+        },
+        "spei-2.5/global-drought-spei-2.5-return-period-100-years.tif": {
+          "sha256": "565160754ce1c2ec73ffabb228eadf5c814885f011b4471af589d02f97bd59ff",
+          "size_bytes": 43426267,
+          "href": "drought-hazard/spei-2.5/global-drought-spei-2.5-return-period-100-years.tif",
+          "mtime": 1795178981.0369775
+        },
+        "spei-2.5/global-drought-spei-2.5-return-period-1000-years.tif": {
+          "sha256": "f00c047cb76b9783355bbbadaf0f4eba4ffb382a1cfe9b603954bda2d4dff7ee",
+          "size_bytes": 40985223,
+          "href": "drought-hazard/spei-2.5/global-drought-spei-2.5-return-period-1000-years.tif",
+          "mtime": 1795178981.2579825
+        },
+        "spei-2.5/global-drought-spei-2.5-return-period-25-years.tif": {
+          "sha256": "1c6a18f03a23475fb3cc055e42f5aea28fa883a7240692cf9e4156b2262448fa",
+          "size_bytes": 38542682,
+          "href": "drought-hazard/spei-2.5/global-drought-spei-2.5-return-period-25-years.tif",
+          "mtime": 1795178980.2439597
+        },
+        "spei-2.5/global-drought-spei-2.5-return-period-250-years.tif": {
+          "sha256": "6c22b9895e695a5fa4a9d49dd27f25feb5e8891c3685fa9928857ed36709c30c",
+          "size_bytes": 41478327,
+          "href": "drought-hazard/spei-2.5/global-drought-spei-2.5-return-period-250-years.tif",
+          "mtime": 1795178982.617013
+        },
+        "spei-2.5/global-drought-spei-2.5-return-period-50-years.tif": {
+          "sha256": "2c102335a0cfb63050cfbef5dbdbafe5f8d7b39a5ff9a5a6f3d31aedea8dcdd7",
+          "size_bytes": 44279491,
+          "href": "drought-hazard/spei-2.5/global-drought-spei-2.5-return-period-50-years.tif",
+          "mtime": 1795178982.671014
+        },
+        "spei-2.5/global-drought-spei-2.5-return-period-500-years.tif": {
+          "sha256": "a4869561e5182e95f904274d9111f60b670334eb6d0b25c1e53ff357e3cd9182",
+          "size_bytes": 40289885,
+          "href": "drought-hazard/spei-2.5/global-drought-spei-2.5-return-period-500-years.tif",
+          "source_path": "spei-2.5/global-drought-spei-2.5-return-period-500-years.tif",
+          "mtime": 1795178982.6510136
+        },
+        "spei-2.5/global-drought-spei-2.5-return-period-1000-years.thumb.jpg": {
+          "sha256": "7e09c523dba55b9d2702c18329e5efe345f37cd5d1eabd96b6c71aa65e468ceb",
+          "size_bytes": 11872,
+          "href": "drought-hazard/spei-2.5/global-drought-spei-2.5-return-period-1000-years.thumb.jpg",
+          "mtime": 1795179043.3672612
+        },
+        "spei-2.5/global-drought-spei-2.5-return-period-25-years.thumb.jpg": {
+          "sha256": "4bd5fbab9c85e2a3f5bfd58cf60370a5b107e365b964736a2700e2cde80e4ec9",
+          "size_bytes": 9151,
+          "href": "drought-hazard/spei-2.5/global-drought-spei-2.5-return-period-25-years.thumb.jpg",
+          "mtime": 1795179043.4013956
+        },
+        "spei-2.5/global-drought-spei-2.5-return-period-250-years.thumb.jpg": {
+          "sha256": "a72fbdf95d293af57af2cadaf02c6ecb066281a22d635a8b1cc67e379c293243",
+          "size_bytes": 15144,
+          "href": "drought-hazard/spei-2.5/global-drought-spei-2.5-return-period-250-years.thumb.jpg",
+          "mtime": 1795179043.4371045
+        },
+        "spei-2.5/global-drought-spei-2.5-return-period-50-years.thumb.jpg": {
+          "sha256": "04720bf0fce42c9411db33e6e0722ede1498e0e64246de67a0f2ebfd7c409fdf",
+          "size_bytes": 15892,
+          "href": "drought-hazard/spei-2.5/global-drought-spei-2.5-return-period-50-years.thumb.jpg",
+          "mtime": 1795179043.472397
+        },
+        "spei-2.5/global-drought-spei-2.5-return-period-500-years.thumb.jpg": {
+          "sha256": "15e35cdc45bd553fb660ad0a5d40facada8e16eea394f79137a982d68ee5cb13",
+          "size_bytes": 13155,
+          "href": "drought-hazard/spei-2.5/global-drought-spei-2.5-return-period-500-years.thumb.jpg",
+          "mtime": 1795179043.5083978
+        },
+        "spei-3.0/global-drought-spei-3.0-return-period-100-years.thumb.jpg": {
+          "sha256": "4178312ba82a544d0c67a010dba16ae491c2434575004f899ec279537683bf5d",
+          "size_bytes": 5273,
+          "href": "drought-hazard/spei-3.0/global-drought-spei-3.0-return-period-100-years.thumb.jpg",
+          "mtime": 1795179043.5433986
+        },
+        "spei-3.0/global-drought-spei-3.0-return-period-100-years.tif": {
+          "sha256": "3916494d765bab9af7a7658460370f3a0ca7b9aa0940a0954c9fc5ed736118b0",
+          "size_bytes": 25502614,
+          "href": "drought-hazard/spei-3.0/global-drought-spei-3.0-return-period-100-years.tif",
+          "mtime": 1795178980.5849674
+        },
+        "spei-3.0/global-drought-spei-3.0-return-period-1000-years.tif": {
+          "sha256": "a3b25216f739bb7bc03b95105c243da37be920424390dc9d491f26d7420421c5",
+          "size_bytes": 25347615,
+          "href": "drought-hazard/spei-3.0/global-drought-spei-3.0-return-period-1000-years.tif",
+          "mtime": 1795178980.753971
+        },
+        "spei-3.0/global-drought-spei-3.0-return-period-25-years.tif": {
+          "sha256": "3f1d3f69d6806f28aedf6cdfaca3de491e781512ed19b1c75b44d0390d6743cb",
+          "size_bytes": 25045710,
+          "href": "drought-hazard/spei-3.0/global-drought-spei-3.0-return-period-25-years.tif",
+          "mtime": 1795178980.5969677
+        },
+        "spei-3.0/global-drought-spei-3.0-return-period-250-years.tif": {
+          "sha256": "ca5c99a27b6658355350db651785294a7a641c50312f624caab0663861106e96",
+          "size_bytes": 25380280,
+          "href": "drought-hazard/spei-3.0/global-drought-spei-3.0-return-period-250-years.tif",
+          "mtime": 1795178981.002977
+        },
+        "spei-3.0/global-drought-spei-3.0-return-period-50-years.tif": {
+          "sha256": "6dbca17d920838a5156b29ff4df3bdc19425942c19159e367266dd09a0f3cc04",
+          "size_bytes": 25511856,
+          "href": "drought-hazard/spei-3.0/global-drought-spei-3.0-return-period-50-years.tif",
+          "mtime": 1795178981.0069768
+        },
+        "spei-3.0/global-drought-spei-3.0-return-period-500-years.tif": {
+          "sha256": "325e2a6e8f8d239a6c6171cc883805af681ab1b2a1e24f923ac2bca7ce1dad04",
+          "size_bytes": 25284279,
+          "href": "drought-hazard/spei-3.0/global-drought-spei-3.0-return-period-500-years.tif",
+          "source_path": "spei-3.0/global-drought-spei-3.0-return-period-500-years.tif",
+          "mtime": 1795178980.9149747
+        },
+        "spei-3.0/global-drought-spei-3.0-return-period-1000-years.thumb.jpg": {
+          "sha256": "41a48572d1be24e1d4b42a3da61e435a48f735995586668dc8d07d49ea59a27a",
+          "size_bytes": 3447,
+          "href": "drought-hazard/spei-3.0/global-drought-spei-3.0-return-period-1000-years.thumb.jpg",
+          "mtime": 1795179043.6803951
+        },
+        "spei-3.0/global-drought-spei-3.0-return-period-25-years.thumb.jpg": {
+          "sha256": "46de2f5b55d90f19a71ef3058a1ef8fc546d4490cba4c755bcad7429c1d85e42",
+          "size_bytes": 2547,
+          "href": "drought-hazard/spei-3.0/global-drought-spei-3.0-return-period-25-years.thumb.jpg",
+          "mtime": 1795179043.7138946
+        },
+        "spei-3.0/global-drought-spei-3.0-return-period-250-years.thumb.jpg": {
+          "sha256": "a94622910de1ed21621d4e0617f4486c38b1f3f8732f0df49810db8c6ca31318",
+          "size_bytes": 4431,
+          "href": "drought-hazard/spei-3.0/global-drought-spei-3.0-return-period-250-years.thumb.jpg",
+          "mtime": 1795179043.7484033
+        },
+        "spei-3.0/global-drought-spei-3.0-return-period-50-years.thumb.jpg": {
+          "sha256": "493214e8baba25011fa651d8995de95b3a8260694406ce42b17718c8f688b70e",
+          "size_bytes": 4690,
+          "href": "drought-hazard/spei-3.0/global-drought-spei-3.0-return-period-50-years.thumb.jpg",
+          "mtime": 1795179043.7835076
+        },
+        "spei-3.0/global-drought-spei-3.0-return-period-500-years.thumb.jpg": {
+          "sha256": "5ef023a13436833949c0faac8f0c60cf6d5de6d0cf575bbdf7055de4cb6df489",
+          "size_bytes": 3868,
+          "href": "drought-hazard/spei-3.0/global-drought-spei-3.0-return-period-500-years.thumb.jpg",
+          "mtime": 1795179043.817975
+        },
+        "items.parquet": {
+          "sha256": "88f0d5916a8ecfe4c90d31254a1541881b96119ece08ccf7414a6753961e4fa0",
+          "size_bytes": 107671,
+          "href": "drought-hazard/items.parquet",
+          "mtime": 1795180442.4085073,
+          "source_fingerprint": "3cbd9d12e464b8823bc6fe4209a5b85d67060973d53fc26c9784e74bde05f9d4"
+        }
+      },
+      "changes": [
+        "items.parquet"
+      ],
+      "message": "Generated items.parquet for STAC GeoParquet queries"
+    }
+  ]
+}
