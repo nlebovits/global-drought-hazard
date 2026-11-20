@@ -28,7 +28,7 @@ DATA_URL = "https://data.source.coop/portolan-mirrors/global-drought-hazard/"
 for readme in root.rglob("README.md"):
     rel = readme.parent.relative_to(root).as_posix()
     text = readme.read_text()
-    fixed = text.replace("](catalog/", "](") if rel == "." else text
+    fixed = re.sub(r"\]\(catalog/([^)/]+)/\)", r"](\1/README.md)", text) if rel == "." else text
     if rel != ".":
         fixed = fixed.replace('read_parquet("./items.parquet")',
                               f'read_parquet("{DATA_URL}{rel}/items.parquet")')
