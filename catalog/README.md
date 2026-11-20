@@ -6,7 +6,7 @@ A mirror of the [Global Drought Hazard](https://data.humdata.org/dataset/global-
 
 ## Collections
 
-### [SPEI-6 drought return levels](catalog/drought-hazard/)
+### [SPEI-6 drought return levels](drought-hazard/)
 
 Extreme value return levels of the 6-month Standardised Precipitation Evapotranspiration Index (SPEI-6), modelled per grid cell from the [CSIC Global SPEI Database](https://spei.csic.es/spei_databa...
 

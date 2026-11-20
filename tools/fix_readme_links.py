@@ -21,3 +21,17 @@ for readme in root.rglob("README.md"):
     if fixed != text:
         readme.write_text(fixed)
         print("fixed", readme.relative_to(root))
+
+# portolan-cli 0.9.0 also links root children as `catalog/<id>/`, and its Quick
+# Start reads `./items.parquet`, which only runs from inside the collection.
+DATA_URL = "https://data.source.coop/portolan-mirrors/global-drought-hazard/"
+for readme in root.rglob("README.md"):
+    rel = readme.parent.relative_to(root).as_posix()
+    text = readme.read_text()
+    fixed = text.replace("](catalog/", "](") if rel == "." else text
+    if rel != ".":
+        fixed = fixed.replace('read_parquet("./items.parquet")',
+                              f'read_parquet("{DATA_URL}{rel}/items.parquet")')
+    if fixed != text:
+        readme.write_text(fixed)
+        print("fixed", readme.relative_to(root))

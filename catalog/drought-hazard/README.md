@@ -92,7 +92,7 @@ Extreme value return levels of the 6-month Standardised Precipitation Evapotrans
 ```python
 import geopandas as gpd
 
-gdf = gpd.read_parquet("./items.parquet")
+gdf = gpd.read_parquet("https://data.source.coop/portolan-mirrors/global-drought-hazard/drought-hazard/items.parquet")
 print(gdf.head())
 ```
 
