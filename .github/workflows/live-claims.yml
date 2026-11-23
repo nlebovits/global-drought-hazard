@@ -1,5 +1,5 @@
-# Run every query in the agent guides against the published objects each
-# week, and probe range requests and CORS on the published host.
+# Regenerate every stated number in the agent guides from the published
+# objects each week, and probe range requests and CORS on the published host.
 name: Live claims
 
 on:
@@ -8,8 +8,9 @@ on:
   workflow_dispatch:
   pull_request:
     paths:
-      - "catalog/**/AGENTS.md"
+      - "**/AGENTS.md"
       - "tests/test_agent_claims.py"
+      - ".github/workflows/live-claims.yml"
 
 permissions:
   contents: read
@@ -19,19 +20,49 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  live:
-    runs-on: ubuntu-latest
+  claims:
+    runs-on: ubuntu-24.04
     timeout-minutes: 45
+    # GDAL and DuckDB are pinned. The guides record the versions that printed
+    # each number, and a new version can print a number differently. To
+    # upgrade, change the image tag and digest (or DUCKDB_VERSION), run
+    # `python3 tests/test_agent_claims.py --write` with the same versions,
+    # and commit the regenerated guides.
+    container:
+      image: ghcr.io/osgeo/gdal:ubuntu-small-3.12.4@sha256:9acfdf967ece13a9a1d9622a494d726aad6b9759aeaae40bbd4d8cb74c843971
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.4.0
         with:
           persist-credentials: false
 
-      - uses: actions/setup-python@v5
+      - name: Install the DuckDB CLI
+        env:
+          DUCKDB_VERSION: v2.0.0
+        run: |
+          curl -fsSL -o /tmp/duckdb.tar.gz \
+            "https://github.com/duckdb/duckdb/releases/download/${DUCKDB_VERSION}/duckdb-cli-linux-amd64.tar.gz"
+          tar -xzf /tmp/duckdb.tar.gz -C /usr/local/bin duckdb
+          duckdb --version
+          gdalinfo --version
+
+      # Fails with the diff when a regenerated guide differs from the
+      # committed one.
+      - name: Regenerate the agent guide claims and compare
+        run: python3 tests/test_agent_claims.py
+
+  hosting:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.4.0
+        with:
+          persist-credentials: false
+
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5.6.0
         with:
           python-version: "3.12"
 
-      - uses: astral-sh/setup-uv@v6
+      - uses: astral-sh/setup-uv@d0cc045d04ccac9d8b7881df0226f9e82c39688e # v6.8.0
 
       # Separate tools: portolan-cli 0.9.0 requires rashid<0.4.0.
       - name: Install the validators
@@ -39,20 +70,6 @@ jobs:
           python -m pip install -r requirements-ci.txt
           uv tool install rashid==0.4.0
           uv tool install portolan-cli==0.9.0
-
-      - name: Install GDAL and the DuckDB CLI
-        env:
-          DUCKDB_VERSION: v2.0.0
-        run: |
-          sudo apt-get update -q
-          sudo apt-get install -yq gdal-bin
-          curl -fsSL -o /tmp/duckdb.tar.gz \
-            "https://github.com/duckdb/duckdb/releases/download/${DUCKDB_VERSION}/duckdb-cli-linux-amd64.tar.gz"
-          sudo tar -xzf /tmp/duckdb.tar.gz -C /usr/local/bin duckdb
-          duckdb --version
-
-      - name: Agent guide claims against the published objects
-        run: python3 tests/test_agent_claims.py
 
       # --no-data: the data pass reports PTL-DAT-011 on every COG, a false
       # positive in rashid 0.4.0 (portolan-sdi/rashid#327).

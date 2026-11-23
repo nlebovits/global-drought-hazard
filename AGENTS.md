@@ -20,7 +20,15 @@ downloads the HDX originals and takes about ten minutes.
 ## Published agent guides
 
 Every query in a `catalog/**/AGENTS.md` runs in `tests/test_agent_claims.py`
-against the published data. Run it after you change a guide. A fence states
-its result in comment lines, and every number there must occur in the output.
+against the published data. Run it after you change a guide.
 Every number in a guide comes from the HDX dataset page or from a query in the
 same guide.
+
+Never type a stated number by hand. Wrap it in `<!-- claim:<id> -->` and
+`<!-- /claim -->` markers, and put its command in a `claim-sources` comment
+next to it. A fence of commands goes between markers too, and its trailing
+comment lines are its output. Then run
+`python3 tests/test_agent_claims.py --write` with the GDAL and DuckDB versions
+that `.github/workflows/live-claims.yml` pins. Without `--write`, the script
+prints the diff and fails if a regenerated guide differs from the committed
+one.
