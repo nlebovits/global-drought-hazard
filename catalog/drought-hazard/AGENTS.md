@@ -101,7 +101,7 @@ Clip the Horn of Africa (40 to 52 E, 2 S to 15 N) at SPEI -2.0, 100 years,
 to a local GeoTIFF and summarize it:
 
 ```bash
-gdal_translate -q -projwin 40 15 52 -2 \
+gdal_translate -q -srcwin 26400 9000 1440 2040 \
   /vsicurl/https://data.source.coop/portolan-mirrors/global-drought-hazard/drought-hazard/spei-2.0/global-drought-spei-2.0-return-period-100-years.tif \
   horn.tif
 gdalinfo -stats horn.tif | grep -E 'Size is|STATISTICS_(MAXIMUM|MEAN|VALID_PERCENT)'
